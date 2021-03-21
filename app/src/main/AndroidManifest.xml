@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+package="com.alimoradi.eliteplayer"
+android:installLocation="internalOnly">
+
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.WAKE_LOCK" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.BLUETOOTH" />
+<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+<uses-permission android:name="android.permission.VIBRATE" />
+<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+<uses-permission android:name="com.android.vending.BILLING" />
+<uses-permission android:name="android.permission.INSTALL_SHORTCUT" />
+<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+<uses-feature
+    android:name="android.hardware.telephony"
+    android:required="false" />
+
+<application
+    android:name=".app.App"
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="false"
+    android:theme="@style/AppTheme"
+    android:usesCleartextTraffic="true"
+    tools:ignore="GoogleAppIndexingWarning"
+    tools:replace="android:supportsRtl"
+    tools:targetApi="m">
+
+    <!--main activity-->
+    <activity
+        android:name="com.alimoradi.presentation.main.MainActivity"
+        android:launchMode="singleTop"
+        android:screenOrientation="portrait"
+        tools:ignore="UnusedAttribute">
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <action android:name="android.intent.action.MUSIC_PLAYER" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+            <category android:name="android.intent.category.APP_MUSIC" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <!--play from search-->
+        <intent-filter>
+            <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.DEFAULT" />
+
+            <data android:scheme="content" />
+            <data android:mimeType="audio/*" />
+        </intent-filter>
+
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.DEFAULT" />
+
+            <data android:scheme="file" />
+            <data android:mimeType="audio/*" />
+        </intent-filter>
+
+    </activity>
+
+
+    <!--dummy shortcuts activity-->
+    <activity android:name="com.alimoradi.appshortcuts.ShortcutsActivity"
+        android:theme="@style/TransparentTheme"/>
+
+    <!--app shortcust playlist chooser-->
+    <activity android:name="com.alimoradi.presentation.playlist.chooser.PlaylistChooserActivity" />
+
+    <!--music service-->
+    <service
+        android:name="com.alimoradi.servicemusic.MusicService"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.media.browse.MediaBrowserService" />
+        </intent-filter>
+    </service>
+
+    <!--media button receiver-->
+    <receiver android:name="androidx.media.session.MediaButtonReceiver">
+        <intent-filter>
+            <action android:name="android.intent.action.MEDIA_BUTTON" />
+        </intent-filter>
+    </receiver>
+
+    <!--floating window service-->
+    <service
+        android:name="com.alimoradi.servicefloating.FloatingWindowService"
+        android:exported="false" />
+
+
+    <uses-library
+        android:name="android.test.runner"
+        android:required="false" />
+
+    <!--widget -->
+    <receiver
+        android:name=".appwidgets.WidgetColored"
+        android:label="@string/app_widget_default">
+        <intent-filter>
+            <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+        </intent-filter>
+
+        <meta-data
+            android:name="android.appwidget.provider"
+            android:resource="@xml/widget_colored" />
+    </receiver>
+
+
+    <!--provide storage permission to share intents-->
+    <provider
+        android:name="androidx.core.content.FileProvider"
+        android:authorities="com.alimoradi.msc.fileprovider"
+        android:exported="false"
+        android:grantUriPermissions="true">
+        <meta-data
+            android:name="android.support.FILE_PROVIDER_PATHS"
+            android:resource="@xml/provider_paths" />
+    </provider>
+
+    <!--car support-->
+    <meta-data
+        android:name="com.google.android.gms.car.application"
+        android:resource="@xml/automotive_app_desc" />
+
+    <!-- support to 2:1 screens -->
+    <meta-data
+        android:name="android.max_aspect"
+        android:value="2.1" />
+
+    <!--chromecast-->
+    <meta-data
+        android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+        android:value="com.alimoradi.msc.chromecast.CastOptionsProvider" />
+
+</application>
+
+
+</manifest>

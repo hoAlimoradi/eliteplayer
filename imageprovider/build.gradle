@@ -1,0 +1,84 @@
+/*
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.alimoradi.imageprovider"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+}*/
+apply plugin: 'com.android.library'
+apply from: '../base_module.gradle'
+apply plugin: 'kotlin-kapt'
+
+android {
+    defaultConfig {
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    kotlinOptions.allWarningsAsErrors = true
+
+}
+
+apply from: '../kapt.gradle'
+
+dependencies {
+    implementation project(':jaudiotagger')
+    implementation project(':core')
+    implementation project(':sharedandroid')
+    implementation project(':shared')
+    implementation project(':injection')
+    implementation project(':prefskeys')
+    implementation project(':intents')
+
+    implementation lib_core.kotlin
+    implementation lib_core.coroutines
+    implementation lib_core.dagger
+    kapt lib_core.dagger_processor
+
+    implementation lib_ui.color_desaturation
+    implementation lib_ui.glide
+    kapt lib_ui.glide_processor
+    // mandatory for glide 4.9.0 or below compatibility
+    kapt lib_ui.androidSupportAnnotation
+
+    implementation lib_x.core_ktx
+    implementation lib_x.preference
+}
