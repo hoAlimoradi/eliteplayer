@@ -59,7 +59,7 @@ class AboutFragmentPresenter(
             type = R.layout.item_about,
             mediaId = AUTHOR_ID,
             title = context.getString(R.string.about_author),
-            subtitle = "Eugeniu Olog"
+            subtitle = "hosein alimoradi"
         ),
         DisplayableHeader(
             type = R.layout.item_about,
