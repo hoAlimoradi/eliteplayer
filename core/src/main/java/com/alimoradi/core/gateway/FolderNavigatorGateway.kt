@@ -1,6 +1,6 @@
-package dev.olog.core.gateway
+package com.alimoradi.core.gateway
 
-import dev.olog.core.entity.FileType
+import com.alimoradi.core.entity.FileType
 import kotlinx.coroutines.flow.Flow
 import java.io.File
 

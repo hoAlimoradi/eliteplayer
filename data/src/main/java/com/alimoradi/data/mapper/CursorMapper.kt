@@ -5,7 +5,7 @@ package com.alimoradi.data.mapper
 import android.database.Cursor
 import android.provider.BaseColumns
 import android.provider.MediaStore
-import dev.olog.core.entity.track.*
+import com.alimoradi.core.entity.track.*
 import com.alimoradi.data.queries.Columns
 import com.alimoradi.data.utils.getInt
 import com.alimoradi.data.utils.getLong

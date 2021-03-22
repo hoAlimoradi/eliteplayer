@@ -1,8 +1,8 @@
 package com.alimoradi.presentation.detail.mapper
 
 import android.content.res.Resources
-import dev.olog.core.entity.AutoPlaylist
-import dev.olog.core.entity.track.*
+import com.alimoradi.core.entity.AutoPlaylist
+import com.alimoradi.core.entity.track.*
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.model.DisplayableHeader
 

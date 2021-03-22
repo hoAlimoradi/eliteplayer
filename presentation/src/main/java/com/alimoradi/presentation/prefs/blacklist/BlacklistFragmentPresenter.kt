@@ -1,10 +1,10 @@
 package com.alimoradi.presentation.prefs.blacklist
 
 import android.os.Environment
-import dev.olog.core.MediaId
-import dev.olog.core.entity.track.Folder
-import dev.olog.core.gateway.track.FolderGateway
-import dev.olog.core.prefs.BlacklistPreferences
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.track.Folder
+import com.alimoradi.core.gateway.track.FolderGateway
+import com.alimoradi.core.prefs.BlacklistPreferences
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.model.BaseModel
 import com.alimoradi.shared.lazyFast

@@ -1,7 +1,7 @@
 package com.alimoradi.injection
 
 import com.tozny.crypto.android.AesCbcWithIntegrity
-import dev.olog.core.IEncrypter
+import com.alimoradi.core.IEncrypter
 import javax.inject.Inject
 import javax.inject.Singleton
 

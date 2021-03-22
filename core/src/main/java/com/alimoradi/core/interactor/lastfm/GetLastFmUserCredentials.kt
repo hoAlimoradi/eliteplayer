@@ -1,8 +1,8 @@
-package dev.olog.core.interactor.lastfm
+package com.alimoradi.core.interactor.lastfm
 
-import dev.olog.core.IEncrypter
-import dev.olog.core.entity.UserCredentials
-import dev.olog.core.prefs.AppPreferencesGateway
+import com.alimoradi.core.IEncrypter
+import com.alimoradi.core.entity.UserCredentials
+import com.alimoradi.core.prefs.AppPreferencesGateway
 import javax.inject.Inject
 
 class GetLastFmUserCredentials @Inject constructor(

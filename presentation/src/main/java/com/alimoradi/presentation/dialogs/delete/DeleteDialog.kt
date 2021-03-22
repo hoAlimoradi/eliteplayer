@@ -3,8 +3,8 @@ package com.alimoradi.presentation.dialogs.delete
 import android.app.RecoverableSecurityException
 import android.content.Context
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import dev.olog.core.MediaId
-import dev.olog.core.MediaIdCategory
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.MediaIdCategory
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.dialogs.BaseDialog
 import com.alimoradi.presentation.utils.asHtml

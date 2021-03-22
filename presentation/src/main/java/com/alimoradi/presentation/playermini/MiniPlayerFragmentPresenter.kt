@@ -1,6 +1,6 @@
 package com.alimoradi.presentation.playermini
 
-import dev.olog.core.prefs.MusicPreferencesGateway
+import com.alimoradi.core.prefs.MusicPreferencesGateway
 import com.alimoradi.sharedandroid.extensions.asLiveData
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.filter

@@ -6,8 +6,8 @@ import androidx.preference.PreferenceManager
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.core.prefs.*
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.core.prefs.*
 import com.alimoradi.data.prefs.*
 import com.alimoradi.data.prefs.sort.AppSortingImpl
 import javax.inject.Singleton

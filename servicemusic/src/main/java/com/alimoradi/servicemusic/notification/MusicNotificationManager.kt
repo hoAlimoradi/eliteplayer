@@ -6,8 +6,8 @@ import android.support.v4.media.session.PlaybackStateCompat
 import android.util.Log
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
-import dev.olog.core.entity.favorite.FavoriteEnum
-import dev.olog.core.interactor.favorite.ObserveFavoriteAnimationUseCase
+import com.alimoradi.core.entity.favorite.FavoriteEnum
+import com.alimoradi.core.interactor.favorite.ObserveFavoriteAnimationUseCase
 import com.alimoradi.injection.dagger.PerService
 import com.alimoradi.servicemusic.interfaces.INotification
 import com.alimoradi.servicemusic.interfaces.IPlayerLifecycle

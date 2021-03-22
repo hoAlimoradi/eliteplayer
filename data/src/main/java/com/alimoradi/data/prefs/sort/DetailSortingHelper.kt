@@ -2,11 +2,11 @@ package com.alimoradi.data.prefs.sort
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import dev.olog.core.MediaIdCategory
-import dev.olog.core.entity.sort.SortArranging
-import dev.olog.core.entity.sort.SortEntity
-import dev.olog.core.entity.sort.SortType
-import dev.olog.core.prefs.SortDetail
+import com.alimoradi.core.MediaIdCategory
+import com.alimoradi.core.entity.sort.SortArranging
+import com.alimoradi.core.entity.sort.SortEntity
+import com.alimoradi.core.entity.sort.SortType
+import com.alimoradi.core.prefs.SortDetail
 import com.alimoradi.data.utils.observeKey
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine

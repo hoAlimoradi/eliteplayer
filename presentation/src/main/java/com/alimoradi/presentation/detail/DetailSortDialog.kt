@@ -5,9 +5,9 @@ import android.view.Menu
 import android.view.View
 import androidx.annotation.MenuRes
 import androidx.appcompat.widget.PopupMenu
-import dev.olog.core.MediaId
-import dev.olog.core.MediaIdCategory
-import dev.olog.core.entity.sort.SortType
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.MediaIdCategory
+import com.alimoradi.core.entity.sort.SortType
 import com.alimoradi.presentation.R
 
 class DetailSortDialog {

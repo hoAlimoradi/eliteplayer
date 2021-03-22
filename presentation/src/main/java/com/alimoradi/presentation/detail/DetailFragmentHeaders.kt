@@ -1,8 +1,8 @@
 package com.alimoradi.presentation.detail
 
 import android.content.Context
-import dev.olog.core.MediaId
-import dev.olog.core.dagger.ApplicationContext
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.dagger.ApplicationContext
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.model.DisplayableHeader
 import com.alimoradi.presentation.model.DisplayableItem

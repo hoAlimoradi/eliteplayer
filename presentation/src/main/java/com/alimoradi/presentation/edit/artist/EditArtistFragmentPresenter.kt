@@ -1,12 +1,12 @@
 package com.alimoradi.presentation.edit.artist
 
-import dev.olog.core.MediaId
-import dev.olog.core.entity.LastFmArtist
-import dev.olog.core.entity.track.Artist
-import dev.olog.core.gateway.ImageRetrieverGateway
-import dev.olog.core.gateway.base.Id
-import dev.olog.core.gateway.podcast.PodcastArtistGateway
-import dev.olog.core.gateway.track.ArtistGateway
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.LastFmArtist
+import com.alimoradi.core.entity.track.Artist
+import com.alimoradi.core.gateway.ImageRetrieverGateway
+import com.alimoradi.core.gateway.base.Id
+import com.alimoradi.core.gateway.podcast.PodcastArtistGateway
+import com.alimoradi.core.gateway.track.ArtistGateway
 import javax.inject.Inject
 
 class EditArtistFragmentPresenter @Inject constructor(

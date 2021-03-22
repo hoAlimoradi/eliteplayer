@@ -8,8 +8,8 @@ import android.net.ConnectivityManager
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
-import dev.olog.core.IEncrypter
-import dev.olog.core.dagger.ApplicationContext
+import com.alimoradi.core.IEncrypter
+import com.alimoradi.core.dagger.ApplicationContext
 
 @Module
 abstract class CoreModule {

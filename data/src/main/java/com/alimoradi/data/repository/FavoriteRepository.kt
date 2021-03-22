@@ -1,12 +1,12 @@
 package com.alimoradi.data.repository
 
-import dev.olog.core.entity.favorite.FavoriteEnum
-import dev.olog.core.entity.favorite.FavoriteStateEntity
-import dev.olog.core.entity.favorite.FavoriteType
-import dev.olog.core.entity.track.Song
-import dev.olog.core.gateway.FavoriteGateway
-import dev.olog.core.gateway.podcast.PodcastGateway
-import dev.olog.core.gateway.track.SongGateway
+import com.alimoradi.core.entity.favorite.FavoriteEnum
+import com.alimoradi.core.entity.favorite.FavoriteStateEntity
+import com.alimoradi.core.entity.favorite.FavoriteType
+import com.alimoradi.core.entity.track.Song
+import com.alimoradi.core.gateway.FavoriteGateway
+import com.alimoradi.core.gateway.podcast.PodcastGateway
+import com.alimoradi.core.gateway.track.SongGateway
 import com.alimoradi.data.db.dao.FavoriteDao
 import com.alimoradi.data.utils.assertBackground
 import com.alimoradi.data.utils.assertBackgroundThread

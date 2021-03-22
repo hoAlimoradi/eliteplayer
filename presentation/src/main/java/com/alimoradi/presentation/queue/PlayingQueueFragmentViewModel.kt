@@ -4,9 +4,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import dev.olog.core.entity.PlayingQueueSong
-import dev.olog.core.gateway.PlayingQueueGateway
-import dev.olog.core.prefs.MusicPreferencesGateway
+import com.alimoradi.core.entity.PlayingQueueSong
+import com.alimoradi.core.gateway.PlayingQueueGateway
+import com.alimoradi.core.prefs.MusicPreferencesGateway
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.model.DisplayableQueueSong
 import com.alimoradi.sharedandroid.extensions.assertBackground

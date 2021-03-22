@@ -1,4 +1,4 @@
-package dev.olog.core.prefs
+package com.alimoradi.core.prefs
 
 import kotlinx.coroutines.flow.Flow
 

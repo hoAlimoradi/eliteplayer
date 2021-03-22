@@ -5,7 +5,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
 import com.google.android.exoplayer2.source.ClippingMediaSource
 import com.google.android.exoplayer2.source.MediaSource
-import dev.olog.core.prefs.MusicPreferencesGateway
+import com.alimoradi.core.prefs.MusicPreferencesGateway
 import com.alimoradi.injection.dagger.ServiceLifecycle
 import com.alimoradi.servicemusic.interfaces.ISourceFactory
 import com.alimoradi.servicemusic.player.crossfade.CrossFadePlayer

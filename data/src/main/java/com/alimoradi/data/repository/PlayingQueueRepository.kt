@@ -1,11 +1,11 @@
 package com.alimoradi.data.repository
 
-import dev.olog.core.entity.PlayingQueueSong
-import dev.olog.core.entity.track.Song
-import dev.olog.core.gateway.PlayingQueueGateway
-import dev.olog.core.gateway.podcast.PodcastGateway
-import dev.olog.core.gateway.track.SongGateway
-import dev.olog.core.interactor.UpdatePlayingQueueUseCaseRequest
+import com.alimoradi.core.entity.PlayingQueueSong
+import com.alimoradi.core.entity.track.Song
+import com.alimoradi.core.gateway.PlayingQueueGateway
+import com.alimoradi.core.gateway.podcast.PodcastGateway
+import com.alimoradi.core.gateway.track.SongGateway
+import com.alimoradi.core.interactor.UpdatePlayingQueueUseCaseRequest
 import com.alimoradi.data.db.dao.PlayingQueueDao
 import com.alimoradi.data.utils.assertBackground
 import com.alimoradi.data.utils.assertBackgroundThread

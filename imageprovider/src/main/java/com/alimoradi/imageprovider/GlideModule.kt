@@ -15,7 +15,7 @@ import com.bumptech.glide.load.engine.executor.GlideExecutor.UncaughtThrowableSt
 import com.bumptech.glide.load.engine.executor.GlideExecutor.UncaughtThrowableStrategy.IGNORE
 import com.bumptech.glide.module.AppGlideModule
 import com.bumptech.glide.request.RequestOptions
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.imageprovider.di.inject
 import com.alimoradi.imageprovider.loader.AudioFileCoverLoader
 import com.alimoradi.imageprovider.loader.GlideImageRetrieverLoader

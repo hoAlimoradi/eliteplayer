@@ -4,7 +4,7 @@ import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import androidx.appcompat.widget.AppCompatImageView
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.media.MediaProvider
 import com.alimoradi.presentation.R
 import com.alimoradi.sharedandroid.extensions.toggleVisibility

@@ -1,8 +1,8 @@
 package com.alimoradi.servicemusic.model
 
-import dev.olog.core.MediaId
-import dev.olog.core.entity.PlayingQueueSong
-import dev.olog.core.entity.track.Song
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.PlayingQueueSong
+import com.alimoradi.core.entity.track.Song
 
 internal data class MediaEntity(
     val id: Long,

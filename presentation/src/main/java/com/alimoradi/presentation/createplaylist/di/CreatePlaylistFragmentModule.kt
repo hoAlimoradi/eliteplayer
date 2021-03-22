@@ -5,7 +5,7 @@ import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import dagger.multibindings.IntoMap
-import dev.olog.core.entity.PlaylistType
+import com.alimoradi.core.entity.PlaylistType
 import com.alimoradi.presentation.createplaylist.CreatePlaylistFragment
 import com.alimoradi.presentation.createplaylist.CreatePlaylistFragmentViewModel
 import com.alimoradi.presentation.dagger.ViewModelKey

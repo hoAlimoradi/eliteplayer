@@ -1,8 +1,8 @@
 package com.alimoradi.equalizer.equalizer
 
-import dev.olog.core.entity.EqualizerPreset
-import dev.olog.core.gateway.EqualizerGateway
-import dev.olog.core.prefs.EqualizerPreferencesGateway
+import com.alimoradi.core.entity.EqualizerPreset
+import com.alimoradi.core.gateway.EqualizerGateway
+import com.alimoradi.core.prefs.EqualizerPreferencesGateway
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.withContext

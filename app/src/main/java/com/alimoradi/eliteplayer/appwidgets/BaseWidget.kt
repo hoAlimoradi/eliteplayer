@@ -9,8 +9,8 @@ import android.widget.RemoteViews
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.drawable.toBitmap
 import com.alimoradi.eliteplayer.R
-import dev.olog.core.entity.LastMetadata
-import dev.olog.core.prefs.MusicPreferencesGateway
+import com.alimoradi.core.entity.LastMetadata
+import com.alimoradi.core.prefs.MusicPreferencesGateway
 import com.alimoradi.servicemusic.MusicService
 import com.alimoradi.presentation.main.MainActivity
 import com.alimoradi.sharedandroid.palette.ImageProcessorResult

@@ -4,7 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import androidx.core.view.doOnPreDraw
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.imageprovider.OnImageLoadingError
 import com.alimoradi.imageprovider.getCachedBitmap
 import com.alimoradi.offlinelyrics.*

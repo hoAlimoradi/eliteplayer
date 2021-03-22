@@ -6,7 +6,7 @@ import androidx.core.app.NotificationCompat
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
-import dev.olog.core.prefs.MusicPreferencesGateway
+import com.alimoradi.core.prefs.MusicPreferencesGateway
 import com.alimoradi.injection.dagger.ServiceLifecycle
 import com.alimoradi.servicefloating.FloatingWindowService
 import com.alimoradi.servicefloating.R

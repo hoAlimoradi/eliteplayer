@@ -1,7 +1,7 @@
-package dev.olog.core.interactor
+package com.alimoradi.core.interactor
 
-import dev.olog.core.MediaId
-import dev.olog.core.gateway.PlayingQueueGateway
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.gateway.PlayingQueueGateway
 import javax.inject.Inject
 
 class UpdatePlayingQueueUseCase @Inject constructor(

@@ -4,7 +4,7 @@ import android.content.Context
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.dialogs.BaseEditTextDialog
 import com.alimoradi.sharedandroid.extensions.act

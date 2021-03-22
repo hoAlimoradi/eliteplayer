@@ -10,7 +10,7 @@ import android.support.v4.media.session.PlaybackStateCompat
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.intents.Classes
 import com.alimoradi.media.connection.IMediaConnectionCallback
 import com.alimoradi.media.connection.MusicServiceConnection

@@ -1,14 +1,14 @@
-package dev.olog.core.interactor.songlist
+package com.alimoradi.core.interactor.songlist
 
-import dev.olog.core.MediaId
-import dev.olog.core.MediaIdCategory
-import dev.olog.core.entity.track.Song
-import dev.olog.core.gateway.podcast.PodcastAlbumGateway
-import dev.olog.core.gateway.podcast.PodcastArtistGateway
-import dev.olog.core.gateway.podcast.PodcastGateway
-import dev.olog.core.gateway.podcast.PodcastPlaylistGateway
-import dev.olog.core.gateway.track.*
-import dev.olog.core.interactor.base.FlowUseCaseWithParam
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.MediaIdCategory
+import com.alimoradi.core.entity.track.Song
+import com.alimoradi.core.gateway.podcast.PodcastAlbumGateway
+import com.alimoradi.core.gateway.podcast.PodcastArtistGateway
+import com.alimoradi.core.gateway.podcast.PodcastGateway
+import com.alimoradi.core.gateway.podcast.PodcastPlaylistGateway
+import com.alimoradi.core.gateway.track.*
+import com.alimoradi.core.interactor.base.FlowUseCaseWithParam
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

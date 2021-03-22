@@ -2,7 +2,7 @@ package com.alimoradi.presentation.tab.adapter
 
 import androidx.lifecycle.Lifecycle
 import androidx.recyclerview.widget.RecyclerView
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.media.MediaProvider
 import com.alimoradi.presentation.BindingsAdapter
 import com.alimoradi.presentation.R

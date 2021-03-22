@@ -2,7 +2,7 @@
 
 package com.alimoradi.data.mapper
 
-import dev.olog.core.entity.track.Playlist
+import com.alimoradi.core.entity.track.Playlist
 import com.alimoradi.data.db.entities.PlaylistEntity
 import com.alimoradi.data.db.entities.PodcastPlaylistEntity
 

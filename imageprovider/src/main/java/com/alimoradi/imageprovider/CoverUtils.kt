@@ -6,8 +6,8 @@ import android.graphics.drawable.GradientDrawable
 import android.graphics.drawable.LayerDrawable
 import androidx.annotation.DrawableRes
 import androidx.core.content.ContextCompat
-import dev.olog.core.MediaId
-import dev.olog.core.MediaIdCategory
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.MediaIdCategory
 import dev.olog.lib.ColorDesaturationUtils
 import com.alimoradi.sharedandroid.extensions.isDarkMode
 import kotlin.math.abs

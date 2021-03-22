@@ -2,7 +2,7 @@ package com.alimoradi.eliteplayer.theme
 
 import android.content.Context
 import android.content.SharedPreferences
-import dev.olog.core.dagger.ApplicationContext
+import com.alimoradi.core.dagger.ApplicationContext
 import com.alimoradi.presentation.R
 import com.alimoradi.sharedandroid.theme.ImageShape
 import kotlinx.coroutines.channels.ConflatedBroadcastChannel

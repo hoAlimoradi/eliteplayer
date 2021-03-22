@@ -1,9 +1,9 @@
 package com.alimoradi.data.repository
 
-import dev.olog.core.entity.AutoPlaylist
-import dev.olog.core.entity.favorite.FavoriteType
-import dev.olog.core.gateway.FavoriteGateway
-import dev.olog.core.gateway.track.PlaylistOperations
+import com.alimoradi.core.entity.AutoPlaylist
+import com.alimoradi.core.entity.favorite.FavoriteType
+import com.alimoradi.core.gateway.FavoriteGateway
+import com.alimoradi.core.gateway.track.PlaylistOperations
 import com.alimoradi.data.db.dao.HistoryDao
 import com.alimoradi.data.db.dao.PlaylistDao
 import com.alimoradi.data.db.entities.PlaylistEntity

@@ -1,8 +1,8 @@
 package com.alimoradi.data.repository.lastfm
 
 import android.util.Log
-import dev.olog.core.entity.LastFmAlbum
-import dev.olog.core.gateway.base.Id
+import com.alimoradi.core.entity.LastFmAlbum
+import com.alimoradi.core.gateway.base.Id
 import com.alimoradi.data.db.dao.LastFmDao
 import com.alimoradi.data.mapper.toDomain
 import com.alimoradi.data.mapper.toModel

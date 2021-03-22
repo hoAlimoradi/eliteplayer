@@ -1,6 +1,6 @@
 package com.alimoradi.servicemusic.shared
 
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.servicemusic.model.MediaEntity
 
 internal object MusicServiceData {

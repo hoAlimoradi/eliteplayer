@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:id="@+id/playerRoot">
 
-    <dev.olog.presentation.widgets.StatusBarView
+    <com.alimoradi.presentation.widgets.StatusBarView
         android:id="@+id/statusBar"
         android:layout_width="0dp"
         android:layout_height="@dimen/status_bar"
@@ -36,7 +36,7 @@
         android:layout_marginStart="@dimen/player_cover_margin_horizontal"
         android:layout_marginEnd="@dimen/player_cover_margin_horizontal" />
 
-    <dev.olog.presentation.widgets.swipeableview.SwipeableView
+    <com.alimoradi.presentation.widgets.swipeableview.SwipeableView
         android:id="@+id/swipeableView"
         android:elevation="20dp"
         app:layout_constraintTop_toTopOf="@+id/imageSwitcher"
@@ -61,7 +61,7 @@
         app:layout_constraintEnd_toEndOf="@+id/imageSwitcher">
 
         <!-- title -->
-        <dev.olog.presentation.widgets.autoscroll.SlidingParentAutoScrollTextView
+        <com.alimoradi.presentation.widgets.autoscroll.SlidingParentAutoScrollTextView
             android:id="@+id/title"
             tools:text="In Da Club"
             android:layout_width="match_parent"

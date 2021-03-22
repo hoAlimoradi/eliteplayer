@@ -1,9 +1,9 @@
 package com.alimoradi.offlinelyrics.domain
 
-import dev.olog.core.entity.OfflineLyrics
-import dev.olog.core.entity.track.Song
-import dev.olog.core.gateway.OfflineLyricsGateway
-import dev.olog.core.gateway.track.SongGateway
+import com.alimoradi.core.entity.OfflineLyrics
+import com.alimoradi.core.entity.track.Song
+import com.alimoradi.core.gateway.OfflineLyricsGateway
+import com.alimoradi.core.gateway.track.SongGateway
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.jaudiotagger.audio.AudioFileIO

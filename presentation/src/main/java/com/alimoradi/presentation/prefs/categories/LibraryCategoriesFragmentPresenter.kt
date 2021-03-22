@@ -1,6 +1,6 @@
 package com.alimoradi.presentation.prefs.categories
 
-import dev.olog.core.MediaIdCategory
+import com.alimoradi.core.MediaIdCategory
 import com.alimoradi.presentation.model.LibraryCategoryBehavior
 import com.alimoradi.presentation.model.PresentationPreferencesGateway
 import javax.inject.Inject

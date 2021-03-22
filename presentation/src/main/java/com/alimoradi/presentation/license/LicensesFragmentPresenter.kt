@@ -1,7 +1,7 @@
 package com.alimoradi.presentation.license
 
 import android.content.Context
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.model.LicenseModel
 

@@ -5,9 +5,9 @@ import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentTransaction
 import androidx.lifecycle.DefaultLifecycleObserver
 import dagger.Lazy
-import dev.olog.core.MediaId
-import dev.olog.core.MediaIdCategory
-import dev.olog.core.entity.PlaylistType
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.MediaIdCategory
+import com.alimoradi.core.entity.PlaylistType
 import com.alimoradi.presentation.createplaylist.CreatePlaylistFragment
 import com.alimoradi.presentation.detail.DetailFragment
 import com.alimoradi.presentation.dialogs.delete.DeleteDialog

@@ -82,7 +82,7 @@ android:installLocation="internalOnly">
         android:theme="@style/TransparentTheme"/>
 
     <!--app shortcust playlist chooser-->
-    <activity android:name="com.alimoradi.presentation.playlist.chooser.PlaylistChooserActivity" />
+    <activity android:name="com.alimoradi.presentation.chooser.PlaylistChooserActivity" />
 
     <!--music service-->
     <service
@@ -148,8 +148,11 @@ android:installLocation="internalOnly">
     <!--chromecast-->
     <meta-data
         android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
-        android:value="com.alimoradi.msc.chromecast.CastOptionsProvider" />
+        android:value="com.alimoradi.eliteplayer.chromecast.CastOptionsProvider" />
 
+    <meta-data
+        android:name="firebase_crashlytics_collection_enabled"
+        android:value="false" />
 </application>
 
 

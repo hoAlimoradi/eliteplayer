@@ -1,6 +1,6 @@
 package com.alimoradi.data.repository
 
-import dev.olog.core.entity.track.*
+import com.alimoradi.core.entity.track.*
 
 internal object MockData {
 

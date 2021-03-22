@@ -1,8 +1,8 @@
 package com.alimoradi.presentation.popup.genre
 
 import android.view.View
-import dev.olog.core.entity.track.Genre
-import dev.olog.core.entity.track.Song
+import com.alimoradi.core.entity.track.Genre
+import com.alimoradi.core.entity.track.Song
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.popup.AbsPopup
 import com.alimoradi.presentation.popup.AbsPopupListener

@@ -1,7 +1,7 @@
-package dev.olog.core.entity
+package com.alimoradi.core.entity
 
-import dev.olog.core.MediaId
-import dev.olog.core.entity.track.Song
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.track.Song
 
 data class PlayingQueueSong(
     val song: Song,

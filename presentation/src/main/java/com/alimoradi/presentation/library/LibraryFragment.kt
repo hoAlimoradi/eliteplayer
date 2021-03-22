@@ -3,8 +3,8 @@ package com.alimoradi.presentation.library
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
-import dev.olog.analytics.TrackerFacade
-import dev.olog.core.MediaIdCategory
+import com.alimoradi.analytics.TrackerFacade
+import com.alimoradi.core.MediaIdCategory
 import com.alimoradi.presentation.FloatingWindowHelper
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.base.BaseFragment

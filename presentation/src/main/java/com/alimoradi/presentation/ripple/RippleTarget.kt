@@ -1,4 +1,4 @@
-package dev.olog.presentation.ripple
+package com.alimoradi.presentation.ripple
 
 import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
@@ -7,7 +7,7 @@ import androidx.core.graphics.drawable.toBitmap
 import androidx.palette.graphics.Palette
 import com.bumptech.glide.request.target.DrawableImageViewTarget
 import com.bumptech.glide.request.transition.Transition
-import dev.olog.presentation.widgets.parallax.ParallaxImageView
+import com.alimoradi.presentation.widgets.parallax.ParallaxImageView
 import com.alimoradi.sharedwidgets.ForegroundImageView
 import kotlinx.coroutines.*
 import kotlin.coroutines.resume

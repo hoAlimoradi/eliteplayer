@@ -1,7 +1,7 @@
-package dev.olog.core.interactor.search
+package com.alimoradi.core.interactor.search
 
-import dev.olog.core.MediaId
-import dev.olog.core.gateway.RecentSearchesGateway
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.gateway.RecentSearchesGateway
 import javax.inject.Inject
 
 class DeleteRecentSearchUseCase @Inject constructor(

@@ -1,12 +1,12 @@
-package dev.olog.presentation.search.adapter
+package com.alimoradi.presentation.search.adapter
 
 import androidx.lifecycle.Lifecycle
-import dev.olog.presentation.BindingsAdapter
-import dev.olog.presentation.base.adapter.*
-import dev.olog.presentation.model.DisplayableAlbum
-import dev.olog.presentation.model.DisplayableItem
-import dev.olog.presentation.navigator.Navigator
-import dev.olog.presentation.search.SearchFragmentViewModel
+import com.alimoradi.presentation.BindingsAdapter
+import com.alimoradi.presentation.base.adapter.*
+import com.alimoradi.presentation.model.DisplayableAlbum
+import com.alimoradi.presentation.model.DisplayableItem
+import com.alimoradi.presentation.navigator.Navigator
+import com.alimoradi.presentation.search.SearchFragmentViewModel
 import kotlinx.android.synthetic.main.item_search_album.view.*
 
 class SearchFragmentNestedAdapter(

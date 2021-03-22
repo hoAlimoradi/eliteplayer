@@ -3,7 +3,7 @@ package com.alimoradi.servicemusic.state
 import android.support.v4.media.session.MediaSessionCompat
 import android.support.v4.media.session.PlaybackStateCompat.*
 import android.util.Log
-import dev.olog.core.prefs.MusicPreferencesGateway
+import com.alimoradi.core.prefs.MusicPreferencesGateway
 import com.alimoradi.injection.dagger.PerService
 import javax.inject.Inject
 import kotlin.properties.Delegates

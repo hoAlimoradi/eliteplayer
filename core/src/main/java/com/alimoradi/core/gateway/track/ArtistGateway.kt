@@ -1,7 +1,7 @@
-package dev.olog.core.gateway.track
+package com.alimoradi.core.gateway.track
 
-import dev.olog.core.entity.track.Artist
-import dev.olog.core.gateway.base.*
+import com.alimoradi.core.entity.track.Artist
+import com.alimoradi.core.gateway.base.*
 
 interface ArtistGateway :
     BaseGateway<Artist, Id>,

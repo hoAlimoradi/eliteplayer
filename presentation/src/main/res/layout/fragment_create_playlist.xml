@@ -50,7 +50,7 @@
 
     </FrameLayout>
 
-    <dev.olog.presentation.widgets.StatusBarView
+    <com.alimoradi.presentation.widgets.StatusBarView
         android:id="@+id/statusBar"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -122,7 +122,7 @@
         android:paddingStart="@dimen/playing_queue_margin_horizontal"
         android:paddingEnd="@dimen/playing_queue_margin_horizontal"/>
 
-    <dev.olog.presentation.widgets.fascroller.RxWaveSideBarView
+    <com.alimoradi.presentation.widgets.fascroller.RxWaveSideBarView
         android:id="@+id/sidebar"
         android:layout_width="wrap_content"
         android:layout_height="0dp"

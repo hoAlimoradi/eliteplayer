@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <dev.olog.presentation.widgets.parallax.ParallaxRecyclerView
+    <com.alimoradi.presentation.widgets.parallax.ParallaxRecyclerView
         android:id="@+id/list"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -52,7 +52,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <dev.olog.shared.widgets.AutoScrollTextView
+        <com.alimoradi.sharedwidgets.AutoScrollTextView
             android:id="@+id/headerText"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -111,7 +111,7 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <dev.olog.presentation.widgets.fascroller.RxFastScroller
+    <com.alimoradi.presentation.widgets.fascroller.RxFastScroller
         android:id="@+id/fastScroller"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
@@ -125,7 +125,7 @@
         app:layout_constraintTop_toBottomOf="@+id/statusBar"
         app:trackColor="@android:color/transparent" />
 
-    <dev.olog.presentation.widgets.StatusBarView
+    <com.alimoradi.presentation.widgets.StatusBarView
         android:id="@+id/statusBar"
         android:layout_width="0dp"
         android:layout_height="@dimen/status_bar"

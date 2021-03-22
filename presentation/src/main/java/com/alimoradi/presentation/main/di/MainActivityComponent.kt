@@ -12,7 +12,7 @@ import com.alimoradi.presentation.detail.di.DetailFragmentInjector
 import com.alimoradi.presentation.dialogs.DialogModule
 import com.alimoradi.presentation.edit.di.EditItemModule
 import com.alimoradi.presentation.equalizer.EqualizerModule
-import com.alimoradi.presentation.folder.tree.di.FolderTreeFragmentModule
+import com.alimoradi.presentation.tree.di.FolderTreeFragmentModule
 import com.alimoradi.presentation.main.MainActivity
 import com.alimoradi.presentation.model.PresentationModelModule
 import com.alimoradi.presentation.player.di.PlayerFragmentModule

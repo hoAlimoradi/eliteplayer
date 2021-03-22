@@ -1,6 +1,6 @@
-package dev.olog.core.gateway.base
+package com.alimoradi.core.gateway.base
 
-import dev.olog.core.entity.track.Song
+import com.alimoradi.core.entity.track.Song
 import kotlinx.coroutines.flow.Flow
 
 interface ChildHasTracks<Param> {

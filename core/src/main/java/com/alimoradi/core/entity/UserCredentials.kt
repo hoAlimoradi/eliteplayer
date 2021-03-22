@@ -1,4 +1,4 @@
-package dev.olog.core.entity
+package com.alimoradi.core.entity
 
 data class UserCredentials(
     val username: String,

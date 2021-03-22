@@ -1,8 +1,8 @@
 package com.alimoradi.servicemusic.voice
 
-import dev.olog.core.MediaId
-import dev.olog.core.entity.track.Song
-import dev.olog.core.gateway.track.GenreGateway
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.track.Song
+import com.alimoradi.core.gateway.track.GenreGateway
 import com.alimoradi.servicemusic.model.MediaEntity
 import com.alimoradi.servicemusic.model.toMediaEntity
 

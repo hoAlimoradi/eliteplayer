@@ -5,10 +5,10 @@ import com.bumptech.glide.load.Options
 import com.bumptech.glide.load.model.ModelLoader
 import com.bumptech.glide.load.model.ModelLoaderFactory
 import com.bumptech.glide.load.model.MultiModelLoaderFactory
-import dev.olog.core.MediaId
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.core.gateway.podcast.PodcastGateway
-import dev.olog.core.gateway.track.SongGateway
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.core.gateway.podcast.PodcastGateway
+import com.alimoradi.core.gateway.track.SongGateway
 import com.alimoradi.imageprovider.fetcher.GlideOriginalImageFetcher
 import java.io.InputStream
 import javax.inject.Inject

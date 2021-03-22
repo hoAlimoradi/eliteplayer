@@ -2,7 +2,7 @@ package com.alimoradi.servicemusic.interfaces
 
 import android.net.Uri
 import android.os.Bundle
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.servicemusic.model.PlayerMediaEntity
 import com.alimoradi.servicemusic.model.PositionInQueue
 

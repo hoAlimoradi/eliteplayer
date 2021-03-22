@@ -16,7 +16,7 @@
         android:visibility="visible"/>
 
     <!-- shuffle -->
-    <dev.olog.presentation.widgets.ShuffleButton
+    <com.alimoradi.presentation.widgets.ShuffleButton
         android:id="@+id/shuffle"
         android:layout_width="@dimen/common_icon_size"
         android:layout_height="@dimen/common_icon_size"
@@ -31,7 +31,7 @@
         app:layout_constraintHorizontal_chainStyle="packed"
         tools:tint="@color/colorControlNormal"/>
 
-    <dev.olog.shared.widgets.AnimatedImageView
+    <com.alimoradi.sharedwidgets.AnimatedImageView
         android:id="@+id/previous"
         app:avd="@drawable/avd_music_previous"
         tools:src="@drawable/vd_music_previous"
@@ -46,7 +46,7 @@
         android:layout_marginStart="16dp"
         tools:tint="@color/colorControlNormal"/>
 
-    <dev.olog.shared.widgets.playpause.AnimatedPlayPauseImageView
+    <com.alimoradi.sharedwidgets.playpause.AnimatedPlayPauseImageView
         android:id="@+id/playPause"
         android:layout_width="@dimen/common_icon_size"
         android:layout_height="@dimen/common_icon_size"
@@ -65,7 +65,7 @@
         android:layout_marginEnd="8dp"
         android:tint="@android:color/white" />
 
-    <dev.olog.shared.widgets.AnimatedImageView
+    <com.alimoradi.sharedwidgets.AnimatedImageView
         android:id="@+id/next"
         app:avd="@drawable/avd_music_next"
         tools:src="@drawable/vd_music_next"
@@ -81,7 +81,7 @@
         tools:tint="@color/colorControlNormal"/>
 
     <!-- repeat -->
-    <dev.olog.presentation.widgets.RepeatButton
+    <com.alimoradi.presentation.widgets.RepeatButton
         android:id="@+id/repeat"
         android:layout_width="@dimen/common_icon_size"
         android:layout_height="@dimen/common_icon_size"

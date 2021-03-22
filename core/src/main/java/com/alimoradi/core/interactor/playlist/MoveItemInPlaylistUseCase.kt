@@ -1,8 +1,8 @@
-package dev.olog.core.interactor.playlist
+package com.alimoradi.core.interactor.playlist
 
-import dev.olog.core.entity.PlaylistType
-import dev.olog.core.gateway.podcast.PodcastPlaylistGateway
-import dev.olog.core.gateway.track.PlaylistGateway
+import com.alimoradi.core.entity.PlaylistType
+import com.alimoradi.core.gateway.podcast.PodcastPlaylistGateway
+import com.alimoradi.core.gateway.track.PlaylistGateway
 import javax.inject.Inject
 
 class MoveItemInPlaylistUseCase @Inject constructor(

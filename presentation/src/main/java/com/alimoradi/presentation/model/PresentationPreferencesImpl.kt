@@ -3,8 +3,8 @@ package com.alimoradi.presentation.model
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import dev.olog.core.MediaIdCategory
-import dev.olog.core.dagger.ApplicationContext
+import com.alimoradi.core.MediaIdCategory
+import com.alimoradi.core.dagger.ApplicationContext
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.tab.TabCategory
 import com.alimoradi.sharedandroid.utils.assertBackgroundThread

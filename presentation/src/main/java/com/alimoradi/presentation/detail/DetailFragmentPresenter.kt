@@ -1,11 +1,11 @@
 package com.alimoradi.presentation.detail
 
-import dev.olog.core.MediaId
-import dev.olog.core.entity.AutoPlaylist
-import dev.olog.core.entity.PlaylistType
-import dev.olog.core.interactor.playlist.MoveItemInPlaylistUseCase
-import dev.olog.core.interactor.playlist.RemoveFromPlaylistUseCase
-import dev.olog.core.prefs.TutorialPreferenceGateway
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.AutoPlaylist
+import com.alimoradi.core.entity.PlaylistType
+import com.alimoradi.core.interactor.playlist.MoveItemInPlaylistUseCase
+import com.alimoradi.core.interactor.playlist.RemoveFromPlaylistUseCase
+import com.alimoradi.core.prefs.TutorialPreferenceGateway
 import com.alimoradi.presentation.model.DisplayableTrack
 import javax.inject.Inject
 

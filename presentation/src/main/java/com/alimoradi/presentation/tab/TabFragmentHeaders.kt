@@ -1,7 +1,7 @@
 package com.alimoradi.presentation.tab
 
 import android.content.res.Resources
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.dagger.PerFragment
 import com.alimoradi.presentation.model.DisplayableHeader

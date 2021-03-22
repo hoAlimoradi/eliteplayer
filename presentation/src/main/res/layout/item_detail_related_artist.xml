@@ -8,7 +8,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="5dp">
 
-    <dev.olog.shared.widgets.CircularImageView
+    <com.alimoradi.sharedwidgets.CircularImageView
         android:id="@+id/cover"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -18,7 +18,7 @@
         app:layout_constraintDimensionRatio="1"
         tools:src="@drawable/placeholder_artist" />
 
-    <dev.olog.presentation.widgets.QuickActionView
+    <com.alimoradi.presentation.widgets.QuickActionView
         android:id="@+id/quickAction"
         style="@style/QuickActionStyle"
         android:layout_width="@dimen/smallShuffleSize"

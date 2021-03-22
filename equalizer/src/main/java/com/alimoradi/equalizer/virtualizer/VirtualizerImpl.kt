@@ -2,7 +2,7 @@ package com.alimoradi.equalizer.virtualizer
 
 import android.media.audiofx.AudioEffect
 import android.media.audiofx.Virtualizer
-import dev.olog.core.prefs.EqualizerPreferencesGateway
+import com.alimoradi.core.prefs.EqualizerPreferencesGateway
 import javax.inject.Inject
 
 class VirtualizerImpl @Inject constructor(

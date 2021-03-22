@@ -1,9 +1,9 @@
-package dev.olog.core.interactor.sort
+package com.alimoradi.core.interactor.sort
 
-import dev.olog.core.MediaId
-import dev.olog.core.MediaIdCategory
-import dev.olog.core.entity.sort.SortType
-import dev.olog.core.prefs.SortPreferences
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.MediaIdCategory
+import com.alimoradi.core.entity.sort.SortType
+import com.alimoradi.core.prefs.SortPreferences
 import javax.inject.Inject
 
 class SetSortOrderUseCase @Inject constructor(

@@ -3,10 +3,10 @@ package com.alimoradi.presentation.popup.playlist
 import android.view.MenuItem
 import androidx.fragment.app.FragmentActivity
 import com.alimoradi.appshortcuts.AppShortcuts
-import dev.olog.core.MediaId
-import dev.olog.core.entity.track.*
-import dev.olog.core.interactor.playlist.AddToPlaylistUseCase
-import dev.olog.core.interactor.playlist.GetPlaylistsUseCase
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.track.*
+import com.alimoradi.core.interactor.playlist.AddToPlaylistUseCase
+import com.alimoradi.core.interactor.playlist.GetPlaylistsUseCase
 import com.alimoradi.media.MediaProvider
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.navigator.Navigator

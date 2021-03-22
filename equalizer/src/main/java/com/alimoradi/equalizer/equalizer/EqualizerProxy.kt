@@ -1,7 +1,7 @@
 package com.alimoradi.equalizer.equalizer
 
-import dev.olog.core.entity.EqualizerBand
-import dev.olog.core.entity.EqualizerPreset
+import com.alimoradi.core.entity.EqualizerBand
+import com.alimoradi.core.entity.EqualizerPreset
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

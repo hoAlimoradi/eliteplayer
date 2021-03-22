@@ -1,12 +1,12 @@
 package com.alimoradi.data.repository
 
-import dev.olog.core.entity.SearchResult
-import dev.olog.core.gateway.*
-import dev.olog.core.gateway.podcast.PodcastAlbumGateway
-import dev.olog.core.gateway.podcast.PodcastArtistGateway
-import dev.olog.core.gateway.podcast.PodcastGateway
-import dev.olog.core.gateway.podcast.PodcastPlaylistGateway
-import dev.olog.core.gateway.track.*
+import com.alimoradi.core.entity.SearchResult
+import com.alimoradi.core.gateway.*
+import com.alimoradi.core.gateway.podcast.PodcastAlbumGateway
+import com.alimoradi.core.gateway.podcast.PodcastArtistGateway
+import com.alimoradi.core.gateway.podcast.PodcastGateway
+import com.alimoradi.core.gateway.podcast.PodcastPlaylistGateway
+import com.alimoradi.core.gateway.track.*
 import com.alimoradi.data.db.dao.RecentSearchesDao
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
@@ -19,7 +19,6 @@ internal class RecentSearchesRepository @Inject constructor(
     private val playlistGateway: PlaylistGateway,
     private val genreGateway: GenreGateway,
     private val folderGateway: FolderGateway,
-
     private val podcastGateway: PodcastGateway,
     private val podcastPlaylistGateway: PodcastPlaylistGateway,
     private val podcastArtistGateway: PodcastArtistGateway,

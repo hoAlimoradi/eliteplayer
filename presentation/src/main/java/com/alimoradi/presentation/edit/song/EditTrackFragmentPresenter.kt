@@ -1,12 +1,12 @@
 package com.alimoradi.presentation.edit.song
 
-import dev.olog.core.MediaId
-import dev.olog.core.entity.LastFmTrack
-import dev.olog.core.entity.track.Song
-import dev.olog.core.gateway.ImageRetrieverGateway
-import dev.olog.core.gateway.base.Id
-import dev.olog.core.gateway.podcast.PodcastGateway
-import dev.olog.core.gateway.track.SongGateway
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.LastFmTrack
+import com.alimoradi.core.entity.track.Song
+import com.alimoradi.core.gateway.ImageRetrieverGateway
+import com.alimoradi.core.gateway.base.Id
+import com.alimoradi.core.gateway.podcast.PodcastGateway
+import com.alimoradi.core.gateway.track.SongGateway
 import com.alimoradi.intents.AppConstants
 import javax.inject.Inject
 

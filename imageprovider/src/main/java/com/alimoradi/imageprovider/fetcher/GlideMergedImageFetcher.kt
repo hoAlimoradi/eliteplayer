@@ -4,11 +4,11 @@ import android.content.Context
 import com.bumptech.glide.Priority
 import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.data.DataFetcher
-import dev.olog.core.MediaId
-import dev.olog.core.entity.AutoPlaylist
-import dev.olog.core.gateway.track.FolderGateway
-import dev.olog.core.gateway.track.GenreGateway
-import dev.olog.core.gateway.track.PlaylistGateway
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.AutoPlaylist
+import com.alimoradi.core.gateway.track.FolderGateway
+import com.alimoradi.core.gateway.track.GenreGateway
+import com.alimoradi.core.gateway.track.PlaylistGateway
 import com.alimoradi.imageprovider.creator.ImagesFolderUtils
 import com.alimoradi.imageprovider.creator.MergedImagesCreator
 import com.alimoradi.imageprovider.executor.GlideScope

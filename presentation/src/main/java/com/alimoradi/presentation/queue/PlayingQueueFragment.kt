@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import dev.olog.core.MediaIdCategory
+import com.alimoradi.core.MediaIdCategory
 import com.alimoradi.media.MediaProvider
 import com.alimoradi.presentation.FloatingWindowHelper
 import com.alimoradi.presentation.R

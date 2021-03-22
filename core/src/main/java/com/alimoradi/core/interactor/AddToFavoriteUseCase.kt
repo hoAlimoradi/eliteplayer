@@ -1,9 +1,9 @@
-package dev.olog.core.interactor
+package com.alimoradi.core.interactor
 
-import dev.olog.core.MediaId
-import dev.olog.core.entity.favorite.FavoriteType
-import dev.olog.core.gateway.FavoriteGateway
-import dev.olog.core.interactor.songlist.GetSongListByParamUseCase
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.favorite.FavoriteType
+import com.alimoradi.core.gateway.FavoriteGateway
+import com.alimoradi.core.interactor.songlist.GetSongListByParamUseCase
 import javax.inject.Inject
 
 class AddToFavoriteUseCase @Inject constructor(

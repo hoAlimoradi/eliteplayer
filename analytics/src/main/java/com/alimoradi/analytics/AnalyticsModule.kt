@@ -5,7 +5,7 @@ import com.google.firebase.analytics.FirebaseAnalytics
 import dagger.Module
 import dagger.Provides
 import com.alimoradi.analytics.tracker.FirebaseTracker
-import dev.olog.core.dagger.ApplicationContext
+import com.alimoradi.core.dagger.ApplicationContext
 import javax.inject.Singleton
 
 @Module

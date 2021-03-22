@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.browser.customtabs.CustomTabsIntent
 import androidx.core.view.doOnPreDraw
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.imageprovider.OnImageLoadingError
 import com.alimoradi.imageprovider.getCachedBitmap
 import com.alimoradi.media.MediaProvider

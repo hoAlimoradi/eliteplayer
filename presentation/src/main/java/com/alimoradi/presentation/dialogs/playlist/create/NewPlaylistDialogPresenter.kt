@@ -1,13 +1,13 @@
 package com.alimoradi.presentation.dialogs.playlist.create
 
-import dev.olog.core.MediaId
-import dev.olog.core.entity.PlaylistType
-import dev.olog.core.gateway.PlayingQueueGateway
-import dev.olog.core.gateway.podcast.PodcastGateway
-import dev.olog.core.gateway.track.SongGateway
-import dev.olog.core.interactor.playlist.InsertCustomTrackListRequest
-import dev.olog.core.interactor.playlist.InsertCustomTrackListToPlaylist
-import dev.olog.core.interactor.songlist.GetSongListByParamUseCase
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.PlaylistType
+import com.alimoradi.core.gateway.PlayingQueueGateway
+import com.alimoradi.core.gateway.podcast.PodcastGateway
+import com.alimoradi.core.gateway.track.SongGateway
+import com.alimoradi.core.interactor.playlist.InsertCustomTrackListRequest
+import com.alimoradi.core.interactor.playlist.InsertCustomTrackListToPlaylist
+import com.alimoradi.core.interactor.songlist.GetSongListByParamUseCase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import javax.inject.Inject

@@ -1,9 +1,9 @@
 package com.alimoradi.offlinelyrics.domain
 
-import dev.olog.core.entity.track.Song
-import dev.olog.core.gateway.OfflineLyricsGateway
-import dev.olog.core.gateway.track.SongGateway
-import dev.olog.core.interactor.base.FlowUseCaseWithParam
+import com.alimoradi.core.entity.track.Song
+import com.alimoradi.core.gateway.OfflineLyricsGateway
+import com.alimoradi.core.gateway.track.SongGateway
+import com.alimoradi.core.interactor.base.FlowUseCaseWithParam
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOn

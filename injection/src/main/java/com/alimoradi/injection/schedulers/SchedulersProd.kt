@@ -1,6 +1,6 @@
 package com.alimoradi.injection.schedulers
 
-import dev.olog.core.schedulers.Schedulers
+import com.alimoradi.core.schedulers.Schedulers
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import javax.inject.Inject

@@ -2,7 +2,7 @@ package com.alimoradi.servicemusic.scrobbling
 
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
-import dev.olog.core.interactor.ObserveLastFmUserCredentials
+import com.alimoradi.core.interactor.ObserveLastFmUserCredentials
 import com.alimoradi.servicemusic.interfaces.IPlayerLifecycle
 import com.alimoradi.servicemusic.model.MetadataEntity
 import kotlinx.coroutines.CoroutineScope

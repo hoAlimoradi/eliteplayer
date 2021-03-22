@@ -2,7 +2,7 @@ package com.alimoradi.presentation.main
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
-import dev.olog.core.dagger.ApplicationContext
+import com.alimoradi.core.dagger.ApplicationContext
 import com.alimoradi.presentation.model.PresentationPreferencesGateway
 import com.alimoradi.sharedandroid.Permissions
 import javax.inject.Inject

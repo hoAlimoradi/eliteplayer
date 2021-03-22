@@ -1,12 +1,12 @@
-package dev.olog.core.interactor
+package com.alimoradi.core.interactor
 
 import android.app.AlarmManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.os.Build
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.core.prefs.AppPreferencesGateway
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.core.prefs.AppPreferencesGateway
 import javax.inject.Inject
 
 class SleepTimerUseCase @Inject constructor(

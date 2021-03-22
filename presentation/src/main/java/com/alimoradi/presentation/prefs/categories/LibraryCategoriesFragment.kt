@@ -3,7 +3,7 @@ package com.alimoradi.presentation.prefs.categories
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import dev.olog.core.MediaIdCategory
+import com.alimoradi.core.MediaIdCategory
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.base.ListDialog
 import com.alimoradi.presentation.base.drag.DragListenerImpl

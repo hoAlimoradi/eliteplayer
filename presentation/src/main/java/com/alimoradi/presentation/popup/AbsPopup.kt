@@ -8,7 +8,7 @@ import android.view.Gravity
 import android.view.Menu
 import android.view.View
 import androidx.appcompat.widget.PopupMenu
-import dev.olog.core.entity.track.Playlist
+import com.alimoradi.core.entity.track.Playlist
 import com.alimoradi.presentation.R
 
 abstract class AbsPopup(

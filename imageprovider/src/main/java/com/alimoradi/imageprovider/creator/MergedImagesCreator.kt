@@ -3,8 +3,8 @@ package com.alimoradi.imageprovider.creator
 import android.content.Context
 import android.graphics.Bitmap
 import com.bumptech.glide.util.Util.assertBackgroundThread
-import dev.olog.core.MediaId
-import dev.olog.core.MediaIdCategory
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.MediaIdCategory
 import com.alimoradi.imageprovider.OnImageLoadingError
 import com.alimoradi.imageprovider.getCachedBitmap
 import kotlinx.coroutines.yield

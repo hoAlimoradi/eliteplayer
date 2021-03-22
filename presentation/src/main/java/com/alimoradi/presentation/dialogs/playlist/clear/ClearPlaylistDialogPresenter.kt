@@ -1,7 +1,7 @@
 package com.alimoradi.presentation.dialogs.playlist.clear
 
-import dev.olog.core.MediaId
-import dev.olog.core.interactor.playlist.ClearPlaylistUseCase
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.interactor.playlist.ClearPlaylistUseCase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import javax.inject.Inject

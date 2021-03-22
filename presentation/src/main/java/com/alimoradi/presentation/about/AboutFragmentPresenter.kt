@@ -3,7 +3,7 @@ package com.alimoradi.presentation.about
 import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.presentation.BuildConfig
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.model.DisplayableHeader

@@ -1,6 +1,6 @@
-package dev.olog.core.gateway
+package com.alimoradi.core.gateway
 
-import dev.olog.core.entity.SearchResult
+import com.alimoradi.core.entity.SearchResult
 import kotlinx.coroutines.flow.Flow
 
 interface RecentSearchesGateway {

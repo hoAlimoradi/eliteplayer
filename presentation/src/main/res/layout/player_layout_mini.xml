@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_height="@dimen/sliding_panel_peek">
 
-        <dev.olog.presentation.widgets.imageview.PlayerImageView
+        <com.alimoradi.presentation.widgets.imageview.PlayerImageView
             android:id="@+id/miniCover"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +28,7 @@
             android:layout_marginTop="@dimen/item_song_cover_margin_vertical"
             android:layout_marginBottom="@dimen/item_song_cover_margin_vertical"/>
 
-        <dev.olog.presentation.widgets.autoscroll.SlidingParentAutoScrollTextView
+        <com.alimoradi.presentation.widgets.autoscroll.SlidingParentAutoScrollTextView
             android:id="@+id/title"
             tools:text="@tools:sample/lorem"
             android:layout_width="0dp"
@@ -63,7 +63,7 @@
             android:layout_marginTop="2dp"
             android:scrollHorizontally="true"/>
 
-        <dev.olog.presentation.widgets.LottieFavorite
+        <com.alimoradi.presentation.widgets.LottieFavorite
             android:id="@+id/favorite"
             android:layout_width="@dimen/common_icon_size"
             android:layout_height="@dimen/common_icon_size"
@@ -86,7 +86,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" />
 
-        <dev.olog.presentation.widgets.VolumeChangerView
+        <com.alimoradi.presentation.widgets.VolumeChangerView
             android:id="@+id/volume"
             android:layout_gravity="end"
             android:layout_width="@dimen/common_icon_size"
@@ -98,7 +98,7 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <dev.olog.shared.widgets.DottedSeparator
+    <com.alimoradi.sharedwidgets.DottedSeparator
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         app:layout_constraintEnd_toEndOf="parent"

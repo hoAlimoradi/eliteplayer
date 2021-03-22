@@ -1,14 +1,14 @@
-package dev.olog.presentation.search
+package com.alimoradi.presentation.search
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import dev.olog.core.MediaId
-import dev.olog.core.interactor.search.ClearRecentSearchesUseCase
-import dev.olog.core.interactor.search.DeleteRecentSearchUseCase
-import dev.olog.core.interactor.search.InsertRecentSearchUseCase
-import dev.olog.presentation.model.DisplayableItem
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.interactor.search.ClearRecentSearchesUseCase
+import com.alimoradi.core.interactor.search.DeleteRecentSearchUseCase
+import com.alimoradi.core.interactor.search.InsertRecentSearchUseCase
+import com.alimoradi.presentation.model.DisplayableItem
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.flow.collect

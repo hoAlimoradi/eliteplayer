@@ -1,9 +1,9 @@
-package dev.olog.core.interactor
+package com.alimoradi.core.interactor
 
-import dev.olog.core.prefs.AppPreferencesGateway
-import dev.olog.core.prefs.BlacklistPreferences
-import dev.olog.core.prefs.EqualizerPreferencesGateway
-import dev.olog.core.prefs.MusicPreferencesGateway
+import com.alimoradi.core.prefs.AppPreferencesGateway
+import com.alimoradi.core.prefs.BlacklistPreferences
+import com.alimoradi.core.prefs.EqualizerPreferencesGateway
+import com.alimoradi.core.prefs.MusicPreferencesGateway
 import javax.inject.Inject
 
 class ResetPreferencesUseCase @Inject constructor(

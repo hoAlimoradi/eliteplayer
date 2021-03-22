@@ -1,9 +1,9 @@
 package com.alimoradi.presentation.offlinelyrics
 
 import android.content.Context
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.core.gateway.OfflineLyricsGateway
-import dev.olog.core.prefs.TutorialPreferenceGateway
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.core.gateway.OfflineLyricsGateway
+import com.alimoradi.core.prefs.TutorialPreferenceGateway
 import com.alimoradi.intents.AppConstants
 import com.alimoradi.offlinelyrics.BaseOfflineLyricsPresenter
 import com.alimoradi.offlinelyrics.domain.InsertOfflineLyricsUseCase

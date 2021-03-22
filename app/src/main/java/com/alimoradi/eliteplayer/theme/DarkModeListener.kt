@@ -3,7 +3,7 @@ package com.alimoradi.eliteplayer.theme
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatDelegate
-import dev.olog.core.dagger.ApplicationContext
+import com.alimoradi.core.dagger.ApplicationContext
 import com.alimoradi.eliteplayer.theme.observer.ActivityLifecycleCallbacks
 import com.alimoradi.eliteplayer.theme.observer.CurrentActivityObserver
 import com.alimoradi.presentation.R

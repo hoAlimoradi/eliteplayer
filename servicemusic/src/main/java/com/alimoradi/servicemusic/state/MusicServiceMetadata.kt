@@ -9,8 +9,8 @@ import android.util.Log
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import com.bumptech.glide.request.target.Target
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.core.prefs.MusicPreferencesGateway
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.core.prefs.MusicPreferencesGateway
 import com.alimoradi.imageprovider.GlideUtils
 import com.alimoradi.imageprovider.getCachedBitmap
 import com.alimoradi.injection.dagger.PerService

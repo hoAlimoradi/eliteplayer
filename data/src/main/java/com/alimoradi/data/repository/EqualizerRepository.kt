@@ -1,10 +1,10 @@
 package com.alimoradi.data.repository
 
 import android.os.Build
-import dev.olog.core.entity.EqualizerBand
-import dev.olog.core.entity.EqualizerPreset
-import dev.olog.core.gateway.EqualizerGateway
-import dev.olog.core.prefs.EqualizerPreferencesGateway
+import com.alimoradi.core.entity.EqualizerBand
+import com.alimoradi.core.entity.EqualizerPreset
+import com.alimoradi.core.gateway.EqualizerGateway
+import com.alimoradi.core.prefs.EqualizerPreferencesGateway
 import com.alimoradi.data.db.dao.EqualizerPresetsDao
 import com.alimoradi.data.db.entities.EqualizerBandEntity
 import com.alimoradi.data.db.entities.EqualizerPresetEntity

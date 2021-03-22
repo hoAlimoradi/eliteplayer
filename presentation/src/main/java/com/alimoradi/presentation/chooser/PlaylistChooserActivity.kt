@@ -1,11 +1,12 @@
-package com.alimoradi.presentation.playlist.chooser
+package com.alimoradi.presentation.chooser
 
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.base.BaseActivity
-import com.alimoradi.presentation.playlist.chooser.di.inject
+import com.alimoradi.presentation.chooser.PlaylistChooserActivityViewModel
+import com.alimoradi.presentation.chooser.di.inject
 import com.alimoradi.sharedandroid.extensions.subscribe
 import com.alimoradi.sharedandroid.extensions.toast
 import com.alimoradi.sharedandroid.extensions.viewModelProvider

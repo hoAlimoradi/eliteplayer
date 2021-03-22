@@ -6,7 +6,7 @@ import android.widget.Toast
 import androidx.core.content.pm.ShortcutInfoCompat
 import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.core.graphics.drawable.IconCompat
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.imageprovider.getCachedBitmap
 import com.alimoradi.intents.Classes
 import com.alimoradi.intents.MusicServiceAction

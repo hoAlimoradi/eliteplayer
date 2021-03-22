@@ -1,7 +1,7 @@
-package dev.olog.core.entity.track
+package com.alimoradi.core.entity.track
 
-import dev.olog.core.MediaId
-import dev.olog.core.MediaIdCategory
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.MediaIdCategory
 import java.io.File
 
 data class Song(

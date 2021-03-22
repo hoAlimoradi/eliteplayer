@@ -1,6 +1,6 @@
 package com.alimoradi.presentation.model
 
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import java.io.File
 
 data class DisplayableFile(

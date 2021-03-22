@@ -6,7 +6,7 @@ import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
 import dagger.Module
 import dagger.Provides
-import dev.olog.core.dagger.ApplicationContext
+import com.alimoradi.core.dagger.ApplicationContext
 import com.alimoradi.data.db.dao.AppDatabase
 import javax.inject.Singleton
 

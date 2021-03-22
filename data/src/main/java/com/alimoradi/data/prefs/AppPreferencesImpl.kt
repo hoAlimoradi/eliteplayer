@@ -5,9 +5,9 @@ import android.content.SharedPreferences
 import android.os.Environment
 import androidx.core.content.edit
 import com.alimoradi.data.R
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.core.entity.UserCredentials
-import dev.olog.core.prefs.AppPreferencesGateway
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.core.entity.UserCredentials
+import com.alimoradi.core.prefs.AppPreferencesGateway
 import com.alimoradi.data.utils.assertBackgroundThread
 import com.alimoradi.data.utils.observeKey
 import kotlinx.coroutines.flow.Flow

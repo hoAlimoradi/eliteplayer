@@ -3,8 +3,8 @@ package com.alimoradi.data.api.lastfm
 import android.content.Context
 import dagger.Module
 import dagger.Provides
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.data.BuildConfig
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.data.BuildConfig
 import com.alimoradi.data.api.deezer.DeezerService
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient

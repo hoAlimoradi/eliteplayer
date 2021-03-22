@@ -14,7 +14,7 @@ import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.target.Target
 import com.bumptech.glide.request.transition.Transition
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.imageprovider.CoverUtils
 import com.alimoradi.imageprovider.GlideApp
 import com.alimoradi.imageprovider.GlideUtils

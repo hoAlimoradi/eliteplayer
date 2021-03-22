@@ -8,9 +8,9 @@ import android.support.v4.media.session.PlaybackStateCompat
 import androidx.annotation.CallSuper
 import androidx.core.os.bundleOf
 import androidx.lifecycle.LiveData
-import dev.olog.analytics.TrackerFacade
-import dev.olog.core.MediaId
-import dev.olog.core.entity.sort.SortEntity
+import com.alimoradi.analytics.TrackerFacade
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.sort.SortEntity
 import com.alimoradi.intents.MusicServiceAction
 import com.alimoradi.intents.MusicServiceCustomAction
 import com.alimoradi.media.MediaExposer

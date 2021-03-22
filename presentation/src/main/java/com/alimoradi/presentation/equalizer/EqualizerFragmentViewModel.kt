@@ -4,9 +4,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import dev.olog.core.entity.EqualizerPreset
-import dev.olog.core.gateway.EqualizerGateway
-import dev.olog.core.prefs.EqualizerPreferencesGateway
+import com.alimoradi.core.entity.EqualizerPreset
+import com.alimoradi.core.gateway.EqualizerGateway
+import com.alimoradi.core.prefs.EqualizerPreferencesGateway
 import com.alimoradi.equalizer.bassboost.IBassBoost
 import com.alimoradi.equalizer.equalizer.IEqualizer
 import com.alimoradi.equalizer.virtualizer.IVirtualizer

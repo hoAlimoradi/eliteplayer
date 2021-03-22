@@ -1,8 +1,8 @@
 package com.alimoradi.imageprovider.loader
 
 import com.bumptech.glide.load.Key
-import dev.olog.core.MediaId
-import dev.olog.core.MediaIdCategory
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.MediaIdCategory
 import java.security.MessageDigest
 
 internal class MediaIdKey(

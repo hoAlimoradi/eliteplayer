@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.SeekBar
 import dagger.android.support.DaggerFragment
-import dev.olog.core.prefs.MusicPreferencesGateway
+import com.alimoradi.core.prefs.MusicPreferencesGateway
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.interfaces.DrawsOnTop
 import com.alimoradi.sharedandroid.extensions.act

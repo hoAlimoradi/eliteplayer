@@ -7,8 +7,8 @@ import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentTransaction
 import androidx.lifecycle.Lifecycle
 import androidx.recyclerview.widget.RecyclerView
-import dev.olog.core.MediaId
-import dev.olog.core.prefs.MusicPreferencesGateway
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.prefs.MusicPreferencesGateway
 import com.alimoradi.media.MediaProvider
 import com.alimoradi.media.model.PlayerMetadata
 import com.alimoradi.media.model.PlayerPlaybackState

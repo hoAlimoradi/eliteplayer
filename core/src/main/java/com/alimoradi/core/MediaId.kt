@@ -1,4 +1,4 @@
-package dev.olog.core
+package com.alimoradi.core
 
 enum class MediaIdCategory {
     FOLDERS,

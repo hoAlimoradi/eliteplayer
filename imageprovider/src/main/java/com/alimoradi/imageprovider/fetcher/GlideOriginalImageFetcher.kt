@@ -4,10 +4,10 @@ import android.content.Context
 import com.bumptech.glide.Priority
 import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.data.DataFetcher
-import dev.olog.core.MediaId
-import dev.olog.core.entity.track.Song
-import dev.olog.core.gateway.podcast.PodcastGateway
-import dev.olog.core.gateway.track.SongGateway
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.track.Song
+import com.alimoradi.core.gateway.podcast.PodcastGateway
+import com.alimoradi.core.gateway.track.SongGateway
 import com.alimoradi.imageprovider.executor.GlideScope
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.cancel

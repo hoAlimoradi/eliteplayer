@@ -1,7 +1,7 @@
 package com.alimoradi.media.model
 
 import android.support.v4.media.MediaMetadataCompat
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.intents.MusicConstants
 import com.alimoradi.shared.TextUtils
 

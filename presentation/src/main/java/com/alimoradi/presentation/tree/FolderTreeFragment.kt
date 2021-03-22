@@ -1,4 +1,4 @@
-package com.alimoradi.presentation.folder.tree
+package com.alimoradi.presentation.tree
 
 import android.os.Bundle
 import android.view.View

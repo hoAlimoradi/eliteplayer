@@ -5,7 +5,7 @@ import android.view.View
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import dev.olog.core.entity.PlaylistType
+import com.alimoradi.core.entity.PlaylistType
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.base.BaseFragment
 import com.alimoradi.presentation.base.TextViewDialog

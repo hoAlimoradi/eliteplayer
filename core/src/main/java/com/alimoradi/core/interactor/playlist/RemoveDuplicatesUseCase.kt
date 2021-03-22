@@ -1,8 +1,8 @@
-package dev.olog.core.interactor.playlist
+package com.alimoradi.core.interactor.playlist
 
-import dev.olog.core.MediaId
-import dev.olog.core.gateway.podcast.PodcastPlaylistGateway
-import dev.olog.core.gateway.track.PlaylistGateway
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.gateway.podcast.PodcastPlaylistGateway
+import com.alimoradi.core.gateway.track.PlaylistGateway
 import javax.inject.Inject
 
 class RemoveDuplicatesUseCase @Inject constructor(

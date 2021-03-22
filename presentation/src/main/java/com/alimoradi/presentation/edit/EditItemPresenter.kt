@@ -1,7 +1,7 @@
 package com.alimoradi.presentation.edit
 
-import dev.olog.core.MediaId
-import dev.olog.core.gateway.ImageRetrieverGateway
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.gateway.ImageRetrieverGateway
 import com.alimoradi.presentation.edit.domain.UpdateMultipleTracksUseCase
 import com.alimoradi.presentation.edit.domain.UpdateTrackUseCase
 import org.jaudiotagger.tag.FieldKey

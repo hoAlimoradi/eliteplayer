@@ -2,8 +2,8 @@ package com.alimoradi.presentation.dialogs.play.later
 
 import android.support.v4.media.session.MediaControllerCompat
 import androidx.core.os.bundleOf
-import dev.olog.core.MediaId
-import dev.olog.core.interactor.songlist.GetSongListByParamUseCase
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.interactor.songlist.GetSongListByParamUseCase
 import com.alimoradi.intents.MusicServiceCustomAction
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

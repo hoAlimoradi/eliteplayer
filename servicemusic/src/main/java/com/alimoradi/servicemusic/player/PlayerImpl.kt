@@ -5,7 +5,7 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
 import com.alimoradi.injection.dagger.ServiceLifecycle
-import dev.olog.core.prefs.MusicPreferencesGateway
+import com.alimoradi.core.prefs.MusicPreferencesGateway
 import com.alimoradi.servicemusic.Noisy
 import com.alimoradi.servicemusic.state.MusicServicePlaybackState
 import com.alimoradi.servicemusic.focus.AudioFocusBehavior

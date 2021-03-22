@@ -3,7 +3,7 @@ package com.alimoradi.presentation.relatedartists
 import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.ViewModelProvider
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.base.BaseFragment
 import com.alimoradi.presentation.navigator.Navigator

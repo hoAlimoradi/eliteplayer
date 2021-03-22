@@ -6,11 +6,11 @@ import com.alimoradi.media.MediaProvider
 import com.alimoradi.presentation.BindingsAdapter
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.base.adapter.*
-import dev.olog.presentation.base.drag.IDragListener
-import dev.olog.presentation.base.drag.TouchableAdapter
-import dev.olog.presentation.model.DisplayableItem
-import dev.olog.presentation.model.DisplayableTrack
-import dev.olog.presentation.navigator.Navigator
+import com.alimoradi.presentation.base.drag.IDragListener
+import com.alimoradi.presentation.base.drag.TouchableAdapter
+import com.alimoradi.presentation.model.DisplayableItem
+import com.alimoradi.presentation.model.DisplayableTrack
+import com.alimoradi.presentation.navigator.Navigator
 import kotlinx.android.synthetic.main.item_recently_added.view.*
 
 class RecentlyAddedFragmentAdapter(

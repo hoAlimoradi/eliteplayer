@@ -1,11 +1,11 @@
-package dev.olog.presentation.search.di
+package com.alimoradi.presentation.search.di
 
 import dagger.Binds
 import dagger.Module
 import dagger.android.AndroidInjector
 import dagger.multibindings.ClassKey
 import dagger.multibindings.IntoMap
-import dev.olog.presentation.search.SearchFragment
+import com.alimoradi.presentation.search.SearchFragment
 
 
 @Module(subcomponents = arrayOf(SearchFragmentSubComponent::class))

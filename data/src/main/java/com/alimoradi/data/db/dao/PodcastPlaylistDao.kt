@@ -4,8 +4,8 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
-import dev.olog.core.entity.track.Song
-import dev.olog.core.gateway.podcast.PodcastGateway
+import com.alimoradi.core.entity.track.Song
+import com.alimoradi.core.gateway.podcast.PodcastGateway
 import com.alimoradi.data.db.entities.PodcastPlaylistEntity
 import com.alimoradi.data.db.entities.PodcastPlaylistTrackEntity
 import com.alimoradi.data.utils.assertBackground

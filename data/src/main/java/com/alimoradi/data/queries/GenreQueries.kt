@@ -4,10 +4,10 @@ import android.content.ContentResolver
 import android.database.Cursor
 import android.provider.MediaStore.Audio.Genres.*
 import dev.olog.contentresolversql.querySql
-import dev.olog.core.MediaIdCategory
-import dev.olog.core.gateway.base.Id
-import dev.olog.core.prefs.BlacklistPreferences
-import dev.olog.core.prefs.SortPreferences
+import com.alimoradi.core.MediaIdCategory
+import com.alimoradi.core.gateway.base.Id
+import com.alimoradi.core.prefs.BlacklistPreferences
+import com.alimoradi.core.prefs.SortPreferences
 
 @Suppress("DEPRECATION")
 internal class GenreQueries(

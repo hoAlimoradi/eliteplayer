@@ -1,7 +1,7 @@
-package dev.olog.core.interactor.sort
+package com.alimoradi.core.interactor.sort
 
-import dev.olog.core.MediaIdCategory
-import dev.olog.core.prefs.SortPreferences
+import com.alimoradi.core.MediaIdCategory
+import com.alimoradi.core.prefs.SortPreferences
 import javax.inject.Inject
 
 class ToggleDetailSortArrangingUseCase @Inject constructor(

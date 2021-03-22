@@ -1,7 +1,7 @@
 package com.alimoradi.appshortcuts
 
 import android.content.Context
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 
 class AppShortcuts private constructor(context: Context) {
 

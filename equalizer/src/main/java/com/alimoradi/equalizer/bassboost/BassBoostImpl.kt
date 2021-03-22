@@ -2,7 +2,7 @@ package com.alimoradi.equalizer.bassboost
 
 import android.media.audiofx.AudioEffect
 import android.media.audiofx.BassBoost
-import dev.olog.core.prefs.EqualizerPreferencesGateway
+import com.alimoradi.core.prefs.EqualizerPreferencesGateway
 import javax.inject.Inject
 
 class BassBoostImpl @Inject constructor(

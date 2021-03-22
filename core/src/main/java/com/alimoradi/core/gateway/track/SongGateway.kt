@@ -1,9 +1,9 @@
-package dev.olog.core.gateway.track
+package com.alimoradi.core.gateway.track
 
 import android.net.Uri
-import dev.olog.core.entity.track.Song
-import dev.olog.core.gateway.base.BaseGateway
-import dev.olog.core.gateway.base.Id
+import com.alimoradi.core.entity.track.Song
+import com.alimoradi.core.gateway.base.BaseGateway
+import com.alimoradi.core.gateway.base.Id
 
 interface SongGateway :
     BaseGateway<Song, Id> {

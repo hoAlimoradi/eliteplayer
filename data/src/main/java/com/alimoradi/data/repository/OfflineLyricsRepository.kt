@@ -1,7 +1,7 @@
 package com.alimoradi.data.repository
 
-import dev.olog.core.entity.OfflineLyrics
-import dev.olog.core.gateway.OfflineLyricsGateway
+import com.alimoradi.core.entity.OfflineLyrics
+import com.alimoradi.core.gateway.OfflineLyricsGateway
 import com.alimoradi.data.db.dao.LyricsSyncAdjustmentDao
 import com.alimoradi.data.db.dao.OfflineLyricsDao
 import com.alimoradi.data.db.entities.LyricsSyncAdjustmentEntity

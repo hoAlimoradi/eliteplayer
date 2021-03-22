@@ -1,10 +1,10 @@
-package dev.olog.core.interactor.sort
+package com.alimoradi.core.interactor.sort
 
-import dev.olog.core.MediaId
-import dev.olog.core.MediaIdCategory
-import dev.olog.core.entity.sort.SortEntity
-import dev.olog.core.interactor.base.FlowUseCaseWithParam
-import dev.olog.core.prefs.SortPreferences
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.MediaIdCategory
+import com.alimoradi.core.entity.sort.SortEntity
+import com.alimoradi.core.interactor.base.FlowUseCaseWithParam
+import com.alimoradi.core.prefs.SortPreferences
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

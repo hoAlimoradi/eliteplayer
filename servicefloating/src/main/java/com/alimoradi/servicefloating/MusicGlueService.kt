@@ -8,7 +8,7 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LiveData
-import dev.olog.core.dagger.ApplicationContext
+import com.alimoradi.core.dagger.ApplicationContext
 import com.alimoradi.injection.dagger.PerService
 import com.alimoradi.injection.dagger.ServiceLifecycle
 import com.alimoradi.media.MediaExposer

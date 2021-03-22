@@ -2,7 +2,7 @@ package com.alimoradi.data.prefs
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import dev.olog.core.prefs.TutorialPreferenceGateway
+import com.alimoradi.core.prefs.TutorialPreferenceGateway
 import javax.inject.Inject
 
 class TutorialPreferenceImpl @Inject constructor(

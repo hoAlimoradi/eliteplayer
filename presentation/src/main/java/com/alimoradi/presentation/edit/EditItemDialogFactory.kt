@@ -1,12 +1,12 @@
 package com.alimoradi.presentation.edit
 
 import android.content.Context
-import dev.olog.core.MediaId
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.core.entity.track.Song
-import dev.olog.core.gateway.podcast.PodcastGateway
-import dev.olog.core.gateway.track.SongGateway
-import dev.olog.core.interactor.songlist.GetSongListByParamUseCase
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.core.entity.track.Song
+import com.alimoradi.core.gateway.podcast.PodcastGateway
+import com.alimoradi.core.gateway.track.SongGateway
+import com.alimoradi.core.interactor.songlist.GetSongListByParamUseCase
 import com.alimoradi.presentation.R
 import com.alimoradi.sharedandroid.extensions.toast
 import kotlinx.coroutines.Dispatchers

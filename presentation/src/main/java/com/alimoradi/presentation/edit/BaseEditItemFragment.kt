@@ -7,7 +7,7 @@ import android.widget.ImageView
 import androidx.annotation.CallSuper
 import androidx.annotation.StringRes
 import com.bumptech.glide.Priority
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.imageprovider.CoverUtils
 import com.alimoradi.imageprovider.GlideApp
 import com.alimoradi.presentation.R

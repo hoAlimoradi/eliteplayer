@@ -3,10 +3,10 @@ package com.alimoradi.data.prefs
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.core.entity.LastMetadata
-import dev.olog.core.prefs.MusicPreferencesGateway
-import dev.olog.data.R
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.core.entity.LastMetadata
+import com.alimoradi.core.prefs.MusicPreferencesGateway
+import com.alimoradi.data.R
 import com.alimoradi.data.utils.assertBackgroundThread
 import com.alimoradi.data.utils.observeKey
 import kotlinx.coroutines.Dispatchers

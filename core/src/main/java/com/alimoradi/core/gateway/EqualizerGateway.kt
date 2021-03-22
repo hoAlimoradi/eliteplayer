@@ -1,6 +1,6 @@
-package dev.olog.core.gateway
+package com.alimoradi.core.gateway
 
-import dev.olog.core.entity.EqualizerPreset
+import com.alimoradi.core.entity.EqualizerPreset
 import kotlinx.coroutines.flow.Flow
 
 interface EqualizerGateway {

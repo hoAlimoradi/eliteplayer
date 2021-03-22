@@ -5,7 +5,7 @@ import android.util.AttributeSet
 import android.view.View
 import com.airbnb.lottie.LottieAnimationView
 import com.google.android.material.bottomsheet.BottomSheetBehavior
-import dev.olog.core.entity.favorite.FavoriteEnum
+import com.alimoradi.core.entity.favorite.FavoriteEnum
 import com.alimoradi.presentation.interfaces.HasSlidingPanel
 import com.alimoradi.sharedandroid.extensions.isDarkMode
 import com.alimoradi.shared.lazyFast

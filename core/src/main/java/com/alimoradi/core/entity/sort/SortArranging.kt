@@ -1,4 +1,4 @@
-package dev.olog.core.entity.sort
+package com.alimoradi.core.entity.sort
 
 enum class SortArranging {
     ASCENDING, DESCENDING;

@@ -6,8 +6,8 @@ import android.content.Intent
 import android.support.v4.media.session.MediaSessionCompat
 import android.support.v4.media.session.PlaybackStateCompat
 import android.util.Log
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.core.prefs.MusicPreferencesGateway
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.core.prefs.MusicPreferencesGateway
 import com.alimoradi.injection.dagger.PerService
 import com.alimoradi.intents.Classes
 import com.alimoradi.intents.WidgetConstants

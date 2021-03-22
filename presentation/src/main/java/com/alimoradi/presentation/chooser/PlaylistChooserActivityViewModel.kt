@@ -1,4 +1,4 @@
-package com.alimoradi.presentation.playlist.chooser
+package com.alimoradi.presentation.chooser
 
 import android.content.Context
 import android.content.res.Resources
@@ -6,9 +6,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.core.entity.track.Playlist
-import dev.olog.core.gateway.track.PlaylistGateway
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.core.entity.track.Playlist
+import com.alimoradi.core.gateway.track.PlaylistGateway
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.model.DisplayableAlbum
 import com.alimoradi.presentation.model.DisplayableItem

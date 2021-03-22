@@ -1,6 +1,6 @@
-package dev.olog.core.interactor.search
+package com.alimoradi.core.interactor.search
 
-import dev.olog.core.gateway.RecentSearchesGateway
+import com.alimoradi.core.gateway.RecentSearchesGateway
 import javax.inject.Inject
 
 class ClearRecentSearchesUseCase @Inject constructor(

@@ -1,6 +1,6 @@
 package com.alimoradi.presentation.tab
 
-import dev.olog.core.MediaIdCategory
+import com.alimoradi.core.MediaIdCategory
 
 internal enum class TabCategory {
     FOLDERS,

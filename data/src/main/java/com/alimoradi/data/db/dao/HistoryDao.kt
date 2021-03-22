@@ -4,9 +4,9 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import dev.olog.core.entity.track.Song
-import dev.olog.core.gateway.podcast.PodcastGateway
-import dev.olog.core.gateway.track.SongGateway
+import com.alimoradi.core.entity.track.Song
+import com.alimoradi.core.gateway.podcast.PodcastGateway
+import com.alimoradi.core.gateway.track.SongGateway
 import com.alimoradi.data.db.entities.HistoryEntity
 import com.alimoradi.data.db.entities.PodcastHistoryEntity
 import com.alimoradi.data.utils.assertBackground

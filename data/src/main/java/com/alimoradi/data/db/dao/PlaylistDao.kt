@@ -4,8 +4,8 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
-import dev.olog.core.entity.track.Song
-import dev.olog.core.gateway.track.SongGateway
+import com.alimoradi.core.entity.track.Song
+import com.alimoradi.core.gateway.track.SongGateway
 import com.alimoradi.data.db.entities.PlaylistEntity
 import com.alimoradi.data.db.entities.PlaylistTrackEntity
 import com.alimoradi.data.utils.assertBackground

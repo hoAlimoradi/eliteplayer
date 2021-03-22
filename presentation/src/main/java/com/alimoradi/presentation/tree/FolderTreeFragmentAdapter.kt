@@ -1,4 +1,4 @@
-package com.alimoradi.presentation.folder.tree
+package com.alimoradi.presentation.tree
 
 import androidx.lifecycle.Lifecycle
 import com.alimoradi.media.MediaProvider

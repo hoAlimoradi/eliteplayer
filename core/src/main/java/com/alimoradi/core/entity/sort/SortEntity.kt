@@ -1,4 +1,4 @@
-package dev.olog.core.entity.sort
+package com.alimoradi.core.entity.sort
 
 data class SortEntity(
     val type: SortType,

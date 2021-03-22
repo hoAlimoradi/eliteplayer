@@ -1,6 +1,6 @@
-package dev.olog.core.entity
+package com.alimoradi.core.entity
 
-import dev.olog.core.gateway.base.Id
+import com.alimoradi.core.gateway.base.Id
 
 enum class AutoPlaylist {
     LAST_ADDED,

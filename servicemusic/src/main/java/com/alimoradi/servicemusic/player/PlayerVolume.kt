@@ -5,7 +5,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
 import com.alimoradi.injection.dagger.ServiceLifecycle
 import com.alimoradi.injection.dagger.PerService
-import dev.olog.core.prefs.MusicPreferencesGateway
+import com.alimoradi.core.prefs.MusicPreferencesGateway
 import com.alimoradi.servicemusic.interfaces.IMaxAllowedPlayerVolume
 import com.alimoradi.servicemusic.interfaces.IDuckVolume
 import kotlinx.coroutines.*

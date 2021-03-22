@@ -9,8 +9,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.bottomsheet.BottomSheetBehavior
-import dev.olog.core.gateway.PlayingQueueGateway
-import dev.olog.core.prefs.MusicPreferencesGateway
+import com.alimoradi.core.gateway.PlayingQueueGateway
+import com.alimoradi.core.prefs.MusicPreferencesGateway
 import com.alimoradi.media.MediaProvider
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.base.BaseFragment

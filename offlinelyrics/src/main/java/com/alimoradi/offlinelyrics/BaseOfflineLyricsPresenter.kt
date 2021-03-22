@@ -11,8 +11,8 @@ import android.text.style.ForegroundColorSpan
 import android.text.style.StyleSpan
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import dev.olog.core.entity.OfflineLyrics
-import dev.olog.core.gateway.OfflineLyricsGateway
+import com.alimoradi.core.entity.OfflineLyrics
+import com.alimoradi.core.gateway.OfflineLyricsGateway
 import com.alimoradi.offlinelyrics.domain.InsertOfflineLyricsUseCase
 import com.alimoradi.offlinelyrics.domain.ObserveOfflineLyricsUseCase
 import com.alimoradi.sharedandroid.extensions.dpToPx

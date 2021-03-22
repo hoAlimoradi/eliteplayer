@@ -1,4 +1,4 @@
-package dev.olog.presentation.sleeptimer
+package com.alimoradi.presentation.sleeptimer
 
 import android.content.DialogInterface
 import android.graphics.Color
@@ -11,8 +11,8 @@ import android.view.Window
 import android.widget.Button
 import androidx.annotation.ColorRes
 import androidx.core.content.ContextCompat
-import dev.olog.presentation.R
-import dev.olog.presentation.base.BaseDialogFragment
+import com.alimoradi.presentation.R
+import com.alimoradi.presentation.base.BaseDialogFragment
 
 open class ScrollHmsPickerDialog : BaseDialogFragment() {
     interface HmsPickHandler {

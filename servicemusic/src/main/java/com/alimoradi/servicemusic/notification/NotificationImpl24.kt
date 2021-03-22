@@ -5,8 +5,8 @@ import android.os.Build
 import android.support.v4.media.session.MediaSessionCompat
 import android.text.SpannableString
 import androidx.annotation.RequiresApi
-import dev.olog.core.MediaId
-import dev.olog.core.MediaIdCategory
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.MediaIdCategory
 import com.alimoradi.imageprovider.getCachedBitmap
 import com.alimoradi.servicemusic.interfaces.INotification
 import com.alimoradi.shared.TextUtils

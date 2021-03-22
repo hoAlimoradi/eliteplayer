@@ -1,9 +1,9 @@
 package com.alimoradi.presentation.navigator
 
 import android.view.View
-import dev.olog.core.MediaId
-import dev.olog.core.MediaIdCategory
-import dev.olog.core.entity.PlaylistType
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.MediaIdCategory
+import com.alimoradi.core.entity.PlaylistType
 
 interface Navigator {
 

@@ -1,8 +1,8 @@
-package dev.olog.core.prefs
+package com.alimoradi.core.prefs
 
-import dev.olog.core.MediaIdCategory
-import dev.olog.core.entity.sort.SortEntity
-import dev.olog.core.entity.sort.SortType
+import com.alimoradi.core.MediaIdCategory
+import com.alimoradi.core.entity.sort.SortEntity
+import com.alimoradi.core.entity.sort.SortType
 import kotlinx.coroutines.flow.Flow
 
 interface SortPreferences: SortAll, SortDetail

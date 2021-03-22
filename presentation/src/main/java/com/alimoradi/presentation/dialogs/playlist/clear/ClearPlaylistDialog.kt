@@ -2,7 +2,7 @@ package com.alimoradi.presentation.dialogs.playlist.clear
 
 import android.content.Context
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.dialogs.BaseDialog
 import com.alimoradi.presentation.utils.asHtml

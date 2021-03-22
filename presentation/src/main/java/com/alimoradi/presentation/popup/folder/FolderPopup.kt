@@ -1,8 +1,8 @@
 package com.alimoradi.presentation.popup.folder
 
 import android.view.View
-import dev.olog.core.entity.track.Folder
-import dev.olog.core.entity.track.Song
+import com.alimoradi.core.entity.track.Folder
+import com.alimoradi.core.entity.track.Song
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.popup.AbsPopup
 import com.alimoradi.presentation.popup.AbsPopupListener

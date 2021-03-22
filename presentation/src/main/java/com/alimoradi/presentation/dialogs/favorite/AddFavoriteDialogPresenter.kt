@@ -1,8 +1,8 @@
 package com.alimoradi.presentation.dialogs.favorite
 
-import dev.olog.core.MediaId
-import dev.olog.core.entity.favorite.FavoriteType
-import dev.olog.core.interactor.AddToFavoriteUseCase
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.favorite.FavoriteType
+import com.alimoradi.core.interactor.AddToFavoriteUseCase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import javax.inject.Inject

@@ -20,7 +20,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         tools:paddingTop="@dimen/toolbar"/>
 
-    <dev.olog.presentation.widgets.fascroller.RxFastScroller
+    <com.alimoradi.presentation.widgets.fascroller.RxFastScroller
         android:id="@+id/fastScroller"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
@@ -34,7 +34,7 @@
         android:layout_marginBottom="8dp"
         android:paddingStart="16dp" />
 
-    <dev.olog.presentation.folder.tree.AutoShrinkExtendedFab
+    <com.alimoradi.presentation.tree.AutoShrinkExtendedFab
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -57,14 +57,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:background="?android:colorBackground">
 
-        <dev.olog.presentation.widgets.BreadCrumbLayout
+        <com.alimoradi.presentation.widgets.BreadCrumbLayout
             android:id="@+id/bread_crumbs"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:paddingEnd="8dp"
             android:paddingStart="48dp" />
 
-        <dev.olog.shared.widgets.DottedSeparator
+        <com.alimoradi.sharedwidgets.DottedSeparator
             android:layout_width="match_parent"
             android:layout_height="2dp"
             android:layout_gravity="bottom"

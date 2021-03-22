@@ -1,7 +1,7 @@
-package dev.olog.core.interactor.favorite
+package com.alimoradi.core.interactor.favorite
 
-import dev.olog.core.entity.favorite.FavoriteType
-import dev.olog.core.gateway.FavoriteGateway
+import com.alimoradi.core.entity.favorite.FavoriteType
+import com.alimoradi.core.gateway.FavoriteGateway
 import javax.inject.Inject
 
 class IsFavoriteSongUseCase @Inject constructor(

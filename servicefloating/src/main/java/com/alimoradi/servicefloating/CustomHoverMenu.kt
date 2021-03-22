@@ -5,7 +5,7 @@ import androidx.annotation.DrawableRes
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
-import dev.olog.core.prefs.MusicPreferencesGateway
+import com.alimoradi.core.prefs.MusicPreferencesGateway
 import com.alimoradi.injection.dagger.ServiceContext
 import com.alimoradi.injection.dagger.ServiceLifecycle
 import com.alimoradi.servicefloating.api.HoverMenu

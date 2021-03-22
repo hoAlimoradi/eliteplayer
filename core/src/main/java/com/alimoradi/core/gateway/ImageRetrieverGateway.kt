@@ -1,9 +1,9 @@
-package dev.olog.core.gateway
+package com.alimoradi.core.gateway
 
-import dev.olog.core.entity.LastFmAlbum
-import dev.olog.core.entity.LastFmArtist
-import dev.olog.core.entity.LastFmTrack
-import dev.olog.core.gateway.base.Id
+import com.alimoradi.core.entity.LastFmAlbum
+import com.alimoradi.core.entity.LastFmArtist
+import com.alimoradi.core.entity.LastFmTrack
+import com.alimoradi.core.gateway.base.Id
 
 interface ImageRetrieverGateway {
     suspend fun mustFetchTrack(trackId: Id): Boolean

@@ -1,7 +1,7 @@
-package dev.olog.core.gateway
+package com.alimoradi.core.gateway
 
-import dev.olog.core.entity.PlayingQueueSong
-import dev.olog.core.interactor.UpdatePlayingQueueUseCaseRequest
+import com.alimoradi.core.entity.PlayingQueueSong
+import com.alimoradi.core.interactor.UpdatePlayingQueueUseCaseRequest
 import kotlinx.coroutines.flow.Flow
 
 interface PlayingQueueGateway {

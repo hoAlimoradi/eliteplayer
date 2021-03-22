@@ -3,7 +3,7 @@ package com.alimoradi.presentation.widgets.bottomnavigator
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentTransaction
-import dev.olog.analytics.TrackerFacade
+import com.alimoradi.analytics.TrackerFacade
 import com.alimoradi.presentation.library.LibraryFragment
 import com.alimoradi.presentation.queue.PlayingQueueFragment
 import com.alimoradi.presentation.search.SearchFragment

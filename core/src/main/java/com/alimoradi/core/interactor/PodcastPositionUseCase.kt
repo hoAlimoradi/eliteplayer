@@ -1,6 +1,6 @@
-package dev.olog.core.interactor
+package com.alimoradi.core.interactor
 
-import dev.olog.core.gateway.podcast.PodcastGateway
+import com.alimoradi.core.gateway.podcast.PodcastGateway
 import javax.inject.Inject
 
 class PodcastPositionUseCase @Inject constructor(

@@ -1,7 +1,7 @@
 package com.alimoradi.data.api.lastfm
 
 import androidx.annotation.IntRange
-import dev.olog.data.BuildConfig
+import com.alimoradi.data.BuildConfig
 import com.alimoradi.data.api.lastfm.album.AlbumInfo
 import com.alimoradi.data.api.lastfm.album.AlbumSearch
 import com.alimoradi.data.api.lastfm.artist.ArtistInfo

@@ -5,9 +5,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import androidx.preference.PreferenceManager
-import dev.olog.core.MediaIdCategory
+import com.alimoradi.core.MediaIdCategory
 import com.alimoradi.presentation.R
-import com.alimoradi.presentation.folder.tree.FolderTreeFragment
+import com.alimoradi.presentation.tree.FolderTreeFragment
 import com.alimoradi.presentation.model.LibraryCategoryBehavior
 import com.alimoradi.presentation.tab.TabFragment
 import com.alimoradi.shared.isInBounds

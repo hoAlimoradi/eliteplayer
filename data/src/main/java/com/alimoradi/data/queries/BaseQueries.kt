@@ -1,12 +1,12 @@
 package com.alimoradi.data.queries
 
 import android.provider.MediaStore.Audio.Media.*
-import dev.olog.core.MediaIdCategory
-import dev.olog.core.entity.sort.SortArranging
-import dev.olog.core.entity.sort.SortEntity
-import dev.olog.core.entity.sort.SortType
-import dev.olog.core.prefs.BlacklistPreferences
-import dev.olog.core.prefs.SortPreferences
+import com.alimoradi.core.MediaIdCategory
+import com.alimoradi.core.entity.sort.SortArranging
+import com.alimoradi.core.entity.sort.SortEntity
+import com.alimoradi.core.entity.sort.SortType
+import com.alimoradi.core.prefs.BlacklistPreferences
+import com.alimoradi.core.prefs.SortPreferences
 import java.util.concurrent.TimeUnit
 
 @Suppress("DEPRECATION")

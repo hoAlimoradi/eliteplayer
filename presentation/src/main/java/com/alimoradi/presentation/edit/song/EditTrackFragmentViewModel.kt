@@ -5,9 +5,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import dev.olog.core.MediaId
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.core.entity.track.Song
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.core.entity.track.Song
 import com.alimoradi.presentation.utils.safeGet
 import com.alimoradi.sharedandroid.utils.NetworkUtils
 import kotlinx.coroutines.*

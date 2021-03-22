@@ -1,6 +1,6 @@
-package dev.olog.core.gateway
+package com.alimoradi.core.gateway
 
-import dev.olog.core.entity.OfflineLyrics
+import com.alimoradi.core.entity.OfflineLyrics
 import kotlinx.coroutines.flow.Flow
 
 interface OfflineLyricsGateway {

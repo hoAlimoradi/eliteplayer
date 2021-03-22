@@ -1,6 +1,6 @@
-package dev.olog.core.prefs
+package com.alimoradi.core.prefs
 
-import dev.olog.core.entity.LastMetadata
+import com.alimoradi.core.entity.LastMetadata
 import kotlinx.coroutines.flow.Flow
 
 interface MusicPreferencesGateway {

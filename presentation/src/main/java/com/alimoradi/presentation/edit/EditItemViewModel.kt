@@ -4,9 +4,9 @@ import android.content.Context
 import androidx.core.text.isDigitsOnly
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import dev.olog.core.MediaId
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.core.entity.track.Song
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.core.entity.track.Song
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.edit.model.UpdateResult
 import com.alimoradi.sharedandroid.extensions.toast

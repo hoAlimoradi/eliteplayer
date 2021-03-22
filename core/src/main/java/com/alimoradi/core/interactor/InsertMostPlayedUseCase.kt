@@ -1,10 +1,10 @@
-package dev.olog.core.interactor
+package com.alimoradi.core.interactor
 
-import dev.olog.core.MediaId
-import dev.olog.core.MediaIdCategory
-import dev.olog.core.gateway.track.FolderGateway
-import dev.olog.core.gateway.track.GenreGateway
-import dev.olog.core.gateway.track.PlaylistGateway
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.MediaIdCategory
+import com.alimoradi.core.gateway.track.FolderGateway
+import com.alimoradi.core.gateway.track.GenreGateway
+import com.alimoradi.core.gateway.track.PlaylistGateway
 import javax.inject.Inject
 
 class InsertMostPlayedUseCase @Inject constructor(

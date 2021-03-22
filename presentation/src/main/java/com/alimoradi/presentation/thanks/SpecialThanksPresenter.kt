@@ -1,12 +1,14 @@
 package com.alimoradi.presentation.thanks
 
+import android.annotation.SuppressLint
 import android.content.Context
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.model.SpecialThanksModel
 
 class SpecialThanksPresenter (context: Context) {
 
+    @SuppressLint("StringFormatMatches")
     val data = listOf(
         SpecialThanksModel(
             R.layout.item_special_thanks,

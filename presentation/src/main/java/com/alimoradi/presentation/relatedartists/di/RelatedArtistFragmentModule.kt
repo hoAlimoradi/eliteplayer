@@ -5,7 +5,7 @@ import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import dagger.multibindings.IntoMap
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.presentation.dagger.ViewModelKey
 import com.alimoradi.presentation.relatedartists.RelatedArtistFragment
 import com.alimoradi.presentation.relatedartists.RelatedArtistFragmentViewModel

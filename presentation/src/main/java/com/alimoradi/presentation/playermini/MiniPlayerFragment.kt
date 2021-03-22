@@ -5,7 +5,7 @@ import android.view.View
 import androidx.annotation.Keep
 import androidx.core.math.MathUtils
 import com.google.android.material.bottomsheet.BottomSheetBehavior
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.media.model.PlayerState
 import com.alimoradi.media.MediaProvider
 import com.alimoradi.presentation.R

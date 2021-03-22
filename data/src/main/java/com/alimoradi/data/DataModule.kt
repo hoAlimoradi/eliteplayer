@@ -2,12 +2,12 @@ package com.alimoradi.data
 
 import dagger.Binds
 import dagger.Module
-import dev.olog.core.gateway.*
-import dev.olog.core.gateway.podcast.PodcastAlbumGateway
-import dev.olog.core.gateway.podcast.PodcastArtistGateway
-import dev.olog.core.gateway.podcast.PodcastGateway
-import dev.olog.core.gateway.podcast.PodcastPlaylistGateway
-import dev.olog.core.gateway.track.*
+import com.alimoradi.core.gateway.*
+import com.alimoradi.core.gateway.podcast.PodcastAlbumGateway
+import com.alimoradi.core.gateway.podcast.PodcastArtistGateway
+import com.alimoradi.core.gateway.podcast.PodcastGateway
+import com.alimoradi.core.gateway.podcast.PodcastPlaylistGateway
+import com.alimoradi.core.gateway.track.*
 import com.alimoradi.data.repository.*
 import com.alimoradi.data.repository.lastfm.ImageRetrieverRepository
 import com.alimoradi.data.repository.podcast.PodcastAlbumRepository

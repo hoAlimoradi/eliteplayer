@@ -3,8 +3,8 @@ package com.alimoradi.imageprovider.fetcher
 import android.content.Context
 import com.bumptech.glide.Priority
 import com.bumptech.glide.load.data.DataFetcher
-import dev.olog.core.MediaId
-import dev.olog.core.gateway.ImageRetrieverGateway
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.gateway.ImageRetrieverGateway
 import java.io.InputStream
 
 // for some reason last fm for some artists (maybe all) is returning a start instead of the artist image, this

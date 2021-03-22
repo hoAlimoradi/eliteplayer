@@ -7,7 +7,7 @@ import android.view.View
 import androidx.core.view.isVisible
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.*
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.media.MediaProvider
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.base.BaseFragment

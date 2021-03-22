@@ -1,7 +1,7 @@
-package dev.olog.core.interactor.favorite
+package com.alimoradi.core.interactor.favorite
 
-import dev.olog.core.entity.favorite.FavoriteStateEntity
-import dev.olog.core.gateway.FavoriteGateway
+import com.alimoradi.core.entity.favorite.FavoriteStateEntity
+import com.alimoradi.core.gateway.FavoriteGateway
 import javax.inject.Inject
 
 class UpdateFavoriteStateUseCase @Inject constructor(

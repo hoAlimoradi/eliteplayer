@@ -1,9 +1,9 @@
 package com.alimoradi.data.repository.track
 
-import dev.olog.core.entity.track.Artist
-import dev.olog.core.entity.track.Song
-import dev.olog.core.gateway.base.Id
-import dev.olog.core.gateway.track.ArtistGateway
+import com.alimoradi.core.entity.track.Artist
+import com.alimoradi.core.entity.track.Song
+import com.alimoradi.core.gateway.base.Id
+import com.alimoradi.core.gateway.track.ArtistGateway
 import com.alimoradi.data.repository.MockData
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOf

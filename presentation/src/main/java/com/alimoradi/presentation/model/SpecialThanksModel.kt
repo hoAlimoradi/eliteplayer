@@ -1,6 +1,6 @@
 package com.alimoradi.presentation.model
 
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 
 data class SpecialThanksModel(
     override val type: Int,

@@ -1,7 +1,7 @@
 package com.alimoradi.presentation.dialogs.playlist.duplicates
 
-import dev.olog.core.MediaId
-import dev.olog.core.interactor.playlist.RemoveDuplicatesUseCase
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.interactor.playlist.RemoveDuplicatesUseCase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import javax.inject.Inject

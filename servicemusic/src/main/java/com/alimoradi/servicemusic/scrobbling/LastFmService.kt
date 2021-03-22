@@ -5,7 +5,7 @@ import de.umass.lastfm.Caller
 import de.umass.lastfm.Session
 import de.umass.lastfm.Track
 import de.umass.lastfm.scrobble.ScrobbleData
-import dev.olog.core.entity.UserCredentials
+import com.alimoradi.core.entity.UserCredentials
 import com.alimoradi.servicemusic.BuildConfig
 import com.alimoradi.servicemusic.model.MediaEntity
 import com.alimoradi.shared.CustomScope

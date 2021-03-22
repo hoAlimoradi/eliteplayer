@@ -1,7 +1,7 @@
 package com.alimoradi.presentation.model
 
 import android.content.Context
-import dev.olog.core.MediaIdCategory
+import com.alimoradi.core.MediaIdCategory
 import com.alimoradi.presentation.R
 
 data class LibraryCategoryBehavior(

@@ -1,4 +1,4 @@
-package com.alimoradi.presentation.playlist.chooser
+package com.alimoradi.presentation.chooser
 
 import androidx.fragment.app.FragmentActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder

@@ -6,7 +6,7 @@ import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasAndroidInjector
 import com.alimoradi.appshortcuts.AppShortcuts
-import dev.olog.core.interactor.SleepTimerUseCase
+import com.alimoradi.core.interactor.SleepTimerUseCase
 import com.alimoradi.injection.CoreComponent
 import com.alimoradi.eliteplayer.BuildConfig
 import com.alimoradi.eliteplayer.R

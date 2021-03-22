@@ -1,8 +1,8 @@
 package com.alimoradi.data.mapper
 
-import dev.olog.core.entity.LastFmAlbum
-import dev.olog.core.entity.LastFmArtist
-import dev.olog.core.entity.LastFmTrack
+import com.alimoradi.core.entity.LastFmAlbum
+import com.alimoradi.core.entity.LastFmArtist
+import com.alimoradi.core.entity.LastFmTrack
 import com.alimoradi.data.db.entities.LastFmAlbumEntity
 import com.alimoradi.data.db.entities.LastFmArtistEntity
 import com.alimoradi.data.db.entities.LastFmTrackEntity

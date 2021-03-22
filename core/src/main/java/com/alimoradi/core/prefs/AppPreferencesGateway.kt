@@ -1,6 +1,6 @@
-package dev.olog.core.prefs
+package com.alimoradi.core.prefs
 
-import dev.olog.core.entity.UserCredentials
+import com.alimoradi.core.entity.UserCredentials
 import kotlinx.coroutines.flow.Flow
 import java.io.File
 

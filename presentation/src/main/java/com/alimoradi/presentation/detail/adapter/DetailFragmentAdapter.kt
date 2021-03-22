@@ -7,8 +7,8 @@ import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import dev.olog.core.MediaId
-import dev.olog.core.entity.AutoPlaylist
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.AutoPlaylist
 import com.alimoradi.media.MediaProvider
 import com.alimoradi.presentation.BindingsAdapter
 import com.alimoradi.presentation.R

@@ -1,8 +1,8 @@
-package dev.olog.core.interactor.lastplayed
+package com.alimoradi.core.interactor.lastplayed
 
-import dev.olog.core.MediaId
-import dev.olog.core.gateway.track.ArtistGateway
-import dev.olog.core.gateway.podcast.PodcastArtistGateway
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.gateway.track.ArtistGateway
+import com.alimoradi.core.gateway.podcast.PodcastArtistGateway
 import javax.inject.Inject
 
 class InsertLastPlayedArtistUseCase @Inject constructor(

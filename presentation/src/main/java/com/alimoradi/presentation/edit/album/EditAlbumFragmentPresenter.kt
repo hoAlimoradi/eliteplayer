@@ -1,13 +1,13 @@
 package com.alimoradi.presentation.edit.album
 
-import dev.olog.core.MediaId
-import dev.olog.core.entity.LastFmAlbum
-import dev.olog.core.entity.track.Album
-import dev.olog.core.gateway.ImageRetrieverGateway
-import dev.olog.core.gateway.base.Id
-import dev.olog.core.gateway.podcast.PodcastAlbumGateway
-import dev.olog.core.gateway.track.AlbumGateway
-import dev.olog.core.interactor.songlist.GetSongListByParamUseCase
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.LastFmAlbum
+import com.alimoradi.core.entity.track.Album
+import com.alimoradi.core.gateway.ImageRetrieverGateway
+import com.alimoradi.core.gateway.base.Id
+import com.alimoradi.core.gateway.podcast.PodcastAlbumGateway
+import com.alimoradi.core.gateway.track.AlbumGateway
+import com.alimoradi.core.interactor.songlist.GetSongListByParamUseCase
 import com.alimoradi.intents.AppConstants
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

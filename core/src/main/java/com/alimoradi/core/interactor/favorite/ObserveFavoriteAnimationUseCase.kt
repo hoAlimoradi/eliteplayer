@@ -1,8 +1,8 @@
-package dev.olog.core.interactor.favorite
+package com.alimoradi.core.interactor.favorite
 
-import dev.olog.core.entity.favorite.FavoriteEnum
-import dev.olog.core.gateway.FavoriteGateway
-import dev.olog.core.interactor.base.FlowUseCase
+import com.alimoradi.core.entity.favorite.FavoriteEnum
+import com.alimoradi.core.gateway.FavoriteGateway
+import com.alimoradi.core.interactor.base.FlowUseCase
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

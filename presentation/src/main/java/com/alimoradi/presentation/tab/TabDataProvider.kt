@@ -1,12 +1,12 @@
 package com.alimoradi.presentation.tab
 
 import android.content.Context
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.core.gateway.podcast.PodcastAlbumGateway
-import dev.olog.core.gateway.podcast.PodcastArtistGateway
-import dev.olog.core.gateway.podcast.PodcastGateway
-import dev.olog.core.gateway.podcast.PodcastPlaylistGateway
-import dev.olog.core.gateway.track.*
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.core.gateway.podcast.PodcastAlbumGateway
+import com.alimoradi.core.gateway.podcast.PodcastArtistGateway
+import com.alimoradi.core.gateway.podcast.PodcastGateway
+import com.alimoradi.core.gateway.podcast.PodcastPlaylistGateway
+import com.alimoradi.core.gateway.track.*
 import com.alimoradi.presentation.model.DisplayableItem
 import com.alimoradi.presentation.model.PresentationPreferencesGateway
 import com.alimoradi.presentation.tab.mapper.toAutoPlaylist

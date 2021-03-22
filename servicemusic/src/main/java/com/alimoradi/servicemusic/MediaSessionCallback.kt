@@ -7,8 +7,8 @@ import android.support.v4.media.RatingCompat
 import android.support.v4.media.session.MediaSessionCompat
 import android.util.Log
 import android.view.KeyEvent
-import dev.olog.core.MediaId
-import dev.olog.core.gateway.FavoriteGateway
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.gateway.FavoriteGateway
 import com.alimoradi.injection.dagger.PerService
 import com.alimoradi.servicemusic.interfaces.IPlayer
 import com.alimoradi.servicemusic.interfaces.IQueue

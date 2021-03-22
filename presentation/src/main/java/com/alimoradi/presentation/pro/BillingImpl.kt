@@ -6,7 +6,7 @@ import androidx.lifecycle.LifecycleOwner
 import com.android.billingclient.api.BillingClient
 import com.android.billingclient.api.BillingFlowParams
 import com.android.billingclient.api.Purchase
-import dev.olog.core.interactor.ResetPreferencesUseCase
+import com.alimoradi.core.interactor.ResetPreferencesUseCase
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.model.PresentationPreferencesGateway
 import com.alimoradi.sharedandroid.extensions.toast

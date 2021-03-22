@@ -2,7 +2,7 @@ package com.alimoradi.injection.schedulers
 
 import dagger.Binds
 import dagger.Module
-import dev.olog.core.schedulers.Schedulers
+import com.alimoradi.core.schedulers.Schedulers
 
 @Module
 abstract class SchedulersModule {

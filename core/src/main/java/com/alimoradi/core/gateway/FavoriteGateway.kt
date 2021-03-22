@@ -1,9 +1,9 @@
-package dev.olog.core.gateway
+package com.alimoradi.core.gateway
 
-import dev.olog.core.entity.favorite.FavoriteEnum
-import dev.olog.core.entity.favorite.FavoriteStateEntity
-import dev.olog.core.entity.favorite.FavoriteType
-import dev.olog.core.entity.track.Song
+import com.alimoradi.core.entity.favorite.FavoriteEnum
+import com.alimoradi.core.entity.favorite.FavoriteStateEntity
+import com.alimoradi.core.entity.favorite.FavoriteType
+import com.alimoradi.core.entity.track.Song
 import kotlinx.coroutines.flow.Flow
 
 interface FavoriteGateway {

@@ -1,10 +1,10 @@
 package com.alimoradi.presentation.detail.mapper
 
 import android.content.res.Resources
-import dev.olog.core.MediaId
-import dev.olog.core.entity.AutoPlaylist
-import dev.olog.core.entity.sort.SortType
-import dev.olog.core.entity.track.*
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.AutoPlaylist
+import com.alimoradi.core.entity.sort.SortType
+import com.alimoradi.core.entity.track.*
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.model.DisplayableAlbum
 import com.alimoradi.presentation.model.DisplayableTrack

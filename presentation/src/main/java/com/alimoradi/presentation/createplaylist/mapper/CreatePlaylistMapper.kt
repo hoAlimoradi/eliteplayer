@@ -1,6 +1,6 @@
 package com.alimoradi.presentation.createplaylist.mapper
 
-import dev.olog.core.entity.track.Song
+import com.alimoradi.core.entity.track.Song
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.model.DisplayableTrack
 

@@ -1,7 +1,7 @@
-package dev.olog.core.gateway.podcast
+package com.alimoradi.core.gateway.podcast
 
-import dev.olog.core.entity.track.Playlist
-import dev.olog.core.gateway.base.*
+import com.alimoradi.core.entity.track.Playlist
+import com.alimoradi.core.gateway.base.*
 
 interface PodcastPlaylistGateway :
     BaseGateway<Playlist, Id>,

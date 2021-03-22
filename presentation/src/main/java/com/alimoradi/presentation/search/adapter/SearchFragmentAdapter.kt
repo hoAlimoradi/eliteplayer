@@ -9,12 +9,11 @@ import com.alimoradi.presentation.base.adapter.*
 import com.alimoradi.presentation.base.drag.TouchableAdapter
 import com.alimoradi.presentation.interfaces.SetupNestedList
 import com.alimoradi.presentation.model.DisplayableAlbum
-import dev.olog.presentation.model.DisplayableHeader
-import dev.olog.presentation.model.DisplayableItem
-import dev.olog.presentation.model.DisplayableTrack
-import dev.olog.presentation.navigator.Navigator
-import dev.olog.presentation.search.SearchFragmentViewModel
-import kotlinx.android.synthetic.main.item_search_album.view.cover
+import com.alimoradi.presentation.model.DisplayableHeader
+import com.alimoradi.presentation.model.DisplayableItem
+import com.alimoradi.presentation.model.DisplayableTrack
+import com.alimoradi.presentation.navigator.Navigator
+import com.alimoradi.presentation.search.SearchFragmentViewModel
 import kotlinx.android.synthetic.main.item_search_album.view.firstText
 import kotlinx.android.synthetic.main.item_search_album.view.secondText
 import kotlinx.android.synthetic.main.item_search_header.view.*

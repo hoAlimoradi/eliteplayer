@@ -2,7 +2,7 @@ package com.alimoradi.data.prefs
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import dev.olog.core.prefs.BlacklistPreferences
+import com.alimoradi.core.prefs.BlacklistPreferences
 import com.alimoradi.data.utils.assertBackgroundThread
 import javax.inject.Inject
 

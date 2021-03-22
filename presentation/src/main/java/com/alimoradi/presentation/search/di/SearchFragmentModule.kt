@@ -1,11 +1,11 @@
-package dev.olog.presentation.search.di
+package com.alimoradi.presentation.search.di
 
 import androidx.lifecycle.ViewModel
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap
-import dev.olog.presentation.dagger.ViewModelKey
-import dev.olog.presentation.search.SearchFragmentViewModel
+import com.alimoradi.presentation.dagger.ViewModelKey
+import com.alimoradi.presentation.search.SearchFragmentViewModel
 
 @Module
 abstract class SearchFragmentModule {

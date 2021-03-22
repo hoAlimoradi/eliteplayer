@@ -5,11 +5,11 @@ import android.database.ContentObserver
 import android.os.Handler
 import android.os.Looper
 import android.provider.MediaStore
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.core.entity.FileType
-import dev.olog.core.gateway.FolderNavigatorGateway
-import dev.olog.core.gateway.track.FolderGateway
-import dev.olog.core.prefs.BlacklistPreferences
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.core.entity.FileType
+import com.alimoradi.core.gateway.FolderNavigatorGateway
+import com.alimoradi.core.gateway.track.FolderGateway
+import com.alimoradi.core.prefs.BlacklistPreferences
 import com.alimoradi.data.utils.assertBackground
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.Flow

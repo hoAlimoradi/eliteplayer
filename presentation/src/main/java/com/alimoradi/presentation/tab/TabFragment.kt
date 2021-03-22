@@ -10,10 +10,10 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.transition.TransitionManager
-import dev.olog.core.MediaId
-import dev.olog.core.MediaIdCategory
-import dev.olog.core.entity.PlaylistType
-import dev.olog.core.entity.sort.SortType
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.MediaIdCategory
+import com.alimoradi.core.entity.PlaylistType
+import com.alimoradi.core.entity.sort.SortType
 import com.alimoradi.media.MediaProvider
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.base.BaseFragment

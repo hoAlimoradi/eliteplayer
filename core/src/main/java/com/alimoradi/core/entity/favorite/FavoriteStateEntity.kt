@@ -1,4 +1,4 @@
-package dev.olog.core.entity.favorite
+package com.alimoradi.core.entity.favorite
 
 data class FavoriteStateEntity(
     val songId: Long,

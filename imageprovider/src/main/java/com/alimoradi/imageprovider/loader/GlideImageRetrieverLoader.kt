@@ -5,9 +5,9 @@ import com.bumptech.glide.load.Options
 import com.bumptech.glide.load.model.ModelLoader
 import com.bumptech.glide.load.model.ModelLoaderFactory
 import com.bumptech.glide.load.model.MultiModelLoaderFactory
-import dev.olog.core.MediaId
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.core.gateway.ImageRetrieverGateway
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.core.gateway.ImageRetrieverGateway
 import com.alimoradi.imageprovider.fetcher.GlideAlbumFetcher
 import com.alimoradi.imageprovider.fetcher.GlideArtistFetcher
 import com.alimoradi.imageprovider.fetcher.GlideSongFetcher

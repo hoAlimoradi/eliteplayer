@@ -1,4 +1,4 @@
-package dev.olog.core.schedulers
+package com.alimoradi.core.schedulers
 
 import kotlinx.coroutines.CoroutineDispatcher
 

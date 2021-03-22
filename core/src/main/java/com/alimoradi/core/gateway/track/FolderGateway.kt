@@ -1,7 +1,7 @@
-package dev.olog.core.gateway.track
+package com.alimoradi.core.gateway.track
 
-import dev.olog.core.entity.track.Folder
-import dev.olog.core.gateway.base.*
+import com.alimoradi.core.entity.track.Folder
+import com.alimoradi.core.gateway.base.*
 
 interface FolderGateway :
     BaseGateway<Folder, Path>,

@@ -1,10 +1,10 @@
 package com.alimoradi.data.repository.podcast
 
-import dev.olog.core.entity.track.Artist
-import dev.olog.core.entity.track.Song
-import dev.olog.core.gateway.base.Id
-import dev.olog.core.gateway.podcast.PodcastArtistGateway
-import dev.olog.core.gateway.podcast.PodcastGateway
+import com.alimoradi.core.entity.track.Artist
+import com.alimoradi.core.entity.track.Song
+import com.alimoradi.core.gateway.base.Id
+import com.alimoradi.core.gateway.podcast.PodcastArtistGateway
+import com.alimoradi.core.gateway.podcast.PodcastGateway
 import com.alimoradi.data.repository.MockData
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOf

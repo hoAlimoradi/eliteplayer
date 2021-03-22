@@ -4,7 +4,7 @@ import android.appwidget.AppWidgetManager
 import android.content.Context
 import android.graphics.Bitmap
 import android.widget.RemoteViews
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.imageprovider.getCachedBitmap
 import com.alimoradi.eliteplayer.R
 import com.alimoradi.sharedandroid.palette.ImageProcessor

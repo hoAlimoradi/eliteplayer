@@ -1,6 +1,6 @@
 package com.alimoradi.presentation.model
 
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.shared.TextUtils
 
 data class DisplayableQueueSong(

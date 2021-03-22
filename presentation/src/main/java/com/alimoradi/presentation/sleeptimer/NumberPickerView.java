@@ -18,7 +18,7 @@ import android.view.ViewConfiguration;
 
 import androidx.core.widget.ScrollerCompat;
 
-import dev.olog.presentation.R;
+import com.alimoradi.presentation.R;
 
 class NumberPickerView extends View {
 

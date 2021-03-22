@@ -1,11 +1,11 @@
-package com.alimoradi.presentation.playlist.chooser.di
+package com.alimoradi.presentation.chooser.di
 
 import dagger.Component
 import dagger.android.AndroidInjectionModule
 import com.alimoradi.injection.CoreComponent
 import com.alimoradi.presentation.ViewModelModule
 import com.alimoradi.presentation.dagger.PerActivity
-import com.alimoradi.presentation.playlist.chooser.PlaylistChooserActivity
+import com.alimoradi.presentation.chooser.PlaylistChooserActivity
 
 fun PlaylistChooserActivity.inject() {
     DaggerPlaylistChooserActivityComponent.factory()

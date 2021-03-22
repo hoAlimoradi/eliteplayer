@@ -1,4 +1,4 @@
-package dev.olog.core.interactor.base
+package com.alimoradi.core.interactor.base
 
 import kotlinx.coroutines.flow.Flow
 

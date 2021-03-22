@@ -1,7 +1,7 @@
 package com.alimoradi.presentation.dagger
 
 import dagger.MapKey
-import dev.olog.core.MediaIdCategory
+import com.alimoradi.core.MediaIdCategory
 
 @MapKey
 annotation class MediaIdCategoryKey(

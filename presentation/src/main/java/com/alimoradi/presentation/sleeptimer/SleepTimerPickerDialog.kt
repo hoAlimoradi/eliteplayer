@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import dev.olog.core.interactor.SleepTimerUseCase
+import com.alimoradi.core.interactor.SleepTimerUseCase
 import com.alimoradi.presentation.R
 import com.alimoradi.sharedandroid.extensions.act
 import com.alimoradi.sharedandroid.extensions.toast

@@ -1,4 +1,4 @@
-package dev.olog.core.entity
+package com.alimoradi.core.entity
 
 enum class ImageStyle {
     BICENTENNIAL_PRINT,

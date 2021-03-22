@@ -2,7 +2,7 @@ package com.alimoradi.presentation.library
 
 import com.alimoradi.presentation.model.LibraryCategoryBehavior
 import com.alimoradi.presentation.model.PresentationPreferencesGateway
-import dev.olog.core.prefs.TutorialPreferenceGateway
+import com.alimoradi.core.prefs.TutorialPreferenceGateway
 import com.alimoradi.presentation.model.LibraryPage
 import com.alimoradi.shared.clamp
 import javax.inject.Inject

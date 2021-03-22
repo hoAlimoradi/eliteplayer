@@ -1,4 +1,4 @@
-package dev.olog.core
+package com.alimoradi.core
 
 object RecentSearchesTypes {
     const val SONG = 0

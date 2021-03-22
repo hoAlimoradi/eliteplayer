@@ -5,8 +5,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Priority
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
-import dev.olog.core.MediaId
-import dev.olog.core.MediaIdCategory
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.MediaIdCategory
 import com.alimoradi.imageprovider.CoverUtils
 import com.alimoradi.imageprovider.GlideApp
 import com.alimoradi.imageprovider.GlideUtils

@@ -1,7 +1,7 @@
 package com.alimoradi.data.db.dao
 
 import androidx.room.*
-import dev.olog.core.entity.favorite.FavoriteType
+import com.alimoradi.core.entity.favorite.FavoriteType
 import com.alimoradi.data.db.entities.FavoriteEntity
 import com.alimoradi.data.db.entities.FavoritePodcastEntity
 import kotlinx.coroutines.flow.Flow

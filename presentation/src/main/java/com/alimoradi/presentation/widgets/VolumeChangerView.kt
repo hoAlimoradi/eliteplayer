@@ -3,7 +3,7 @@ package com.alimoradi.presentation.widgets
 import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatImageButton
-import dev.olog.core.prefs.MusicPreferencesGateway
+import com.alimoradi.core.prefs.MusicPreferencesGateway
 import com.alimoradi.presentation.R
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.collect

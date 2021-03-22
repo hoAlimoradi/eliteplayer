@@ -1,9 +1,9 @@
-package dev.olog.core.interactor
+package com.alimoradi.core.interactor
 
-import dev.olog.core.IEncrypter
-import dev.olog.core.entity.UserCredentials
-import dev.olog.core.interactor.base.FlowUseCase
-import dev.olog.core.prefs.AppPreferencesGateway
+import com.alimoradi.core.IEncrypter
+import com.alimoradi.core.entity.UserCredentials
+import com.alimoradi.core.interactor.base.FlowUseCase
+import com.alimoradi.core.prefs.AppPreferencesGateway
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject

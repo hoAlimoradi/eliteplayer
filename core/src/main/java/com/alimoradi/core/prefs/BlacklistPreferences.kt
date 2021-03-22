@@ -1,4 +1,4 @@
-package dev.olog.core.prefs
+package com.alimoradi.core.prefs
 
 interface BlacklistPreferences {
     fun getBlackList(): Set<String>

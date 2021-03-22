@@ -15,7 +15,7 @@
         tools:visibility="gone"/>
 
     <!-- shuffle -->
-    <dev.olog.presentation.widgets.ShuffleButton
+    <com.alimoradi.presentation.widgets.ShuffleButton
         android:id="@+id/shuffle"
         android:layout_width="@dimen/common_icon_size"
         android:layout_height="@dimen/common_icon_size"
@@ -27,7 +27,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/playPause"
         app:layout_constraintHorizontal_chainStyle="packed" />
 
-    <dev.olog.shared.widgets.AnimatedImageView
+    <com.alimoradi.sharedwidgets.AnimatedImageView
         android:id="@+id/previous"
         app:avd="@drawable/avd_music_previous"
         tools:src="@drawable/vd_music_previous"
@@ -41,7 +41,7 @@
         android:focusable="true"
         android:layout_marginEnd="16dp" />
 
-    <dev.olog.shared.widgets.playpause.AnimatedPlayPauseImageView
+    <com.alimoradi.sharedwidgets.playpause.AnimatedPlayPauseImageView
         android:id="@+id/playPause"
         android:layout_width="64dp"
         android:layout_height="64dp"
@@ -58,7 +58,7 @@
         android:backgroundTint="?colorControlNormal"
         android:tint="?android:colorBackground"/>
 
-    <dev.olog.shared.widgets.AnimatedImageView
+    <com.alimoradi.sharedwidgets.AnimatedImageView
         android:id="@+id/next"
         app:avd="@drawable/avd_music_next"
         tools:src="@drawable/vd_music_next"
@@ -119,7 +119,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/replay30" />
 
     <!-- repeat -->
-    <dev.olog.presentation.widgets.RepeatButton
+    <com.alimoradi.presentation.widgets.RepeatButton
         android:id="@+id/repeat"
         android:layout_width="@dimen/common_icon_size"
         android:layout_height="@dimen/common_icon_size"
@@ -131,7 +131,7 @@
         app:layout_constraintTop_toTopOf="@+id/playPause"
         app:layout_constraintBottom_toBottomOf="@+id/playPause" />
 
-    <dev.olog.presentation.widgets.LottieFavorite
+    <com.alimoradi.presentation.widgets.LottieFavorite
         android:id="@+id/favorite"
         android:layout_width="@dimen/common_icon_size"
         android:layout_height="@dimen/common_icon_size"

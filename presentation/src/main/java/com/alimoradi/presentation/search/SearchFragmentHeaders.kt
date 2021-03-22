@@ -1,13 +1,13 @@
-package dev.olog.presentation.search
+package com.alimoradi.presentation.search
 
 import android.content.Context
-import dev.olog.core.MediaId
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.presentation.R
-import dev.olog.presentation.dagger.PerFragment
-import dev.olog.presentation.model.DisplayableHeader
-import dev.olog.presentation.model.DisplayableItem
-import dev.olog.presentation.model.DisplayableNestedListPlaceholder
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.presentation.R
+import com.alimoradi.presentation.dagger.PerFragment
+import com.alimoradi.presentation.model.DisplayableHeader
+import com.alimoradi.presentation.model.DisplayableItem
+import com.alimoradi.presentation.model.DisplayableNestedListPlaceholder
 import javax.inject.Inject
 
 @PerFragment

@@ -2,16 +2,16 @@ package com.alimoradi.servicemusic.queue
 
 import android.net.Uri
 import android.os.Bundle
-import dev.olog.core.MediaId
-import dev.olog.core.entity.track.Song
-import dev.olog.core.gateway.PlayingQueueGateway
-import dev.olog.core.gateway.track.GenreGateway
-import dev.olog.core.gateway.track.SongGateway
-import dev.olog.core.interactor.ObserveMostPlayedSongsUseCase
-import dev.olog.core.interactor.ObserveRecentlyAddedUseCase
-import dev.olog.core.interactor.PodcastPositionUseCase
-import dev.olog.core.interactor.songlist.GetSongListByParamUseCase
-import dev.olog.core.prefs.MusicPreferencesGateway
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.track.Song
+import com.alimoradi.core.gateway.PlayingQueueGateway
+import com.alimoradi.core.gateway.track.GenreGateway
+import com.alimoradi.core.gateway.track.SongGateway
+import com.alimoradi.core.interactor.ObserveMostPlayedSongsUseCase
+import com.alimoradi.core.interactor.ObserveRecentlyAddedUseCase
+import com.alimoradi.core.interactor.PodcastPositionUseCase
+import com.alimoradi.core.interactor.songlist.GetSongListByParamUseCase
+import com.alimoradi.core.prefs.MusicPreferencesGateway
 import com.alimoradi.servicemusic.interfaces.IQueue
 import com.alimoradi.servicemusic.model.*
 import com.alimoradi.servicemusic.state.MusicServiceShuffleMode

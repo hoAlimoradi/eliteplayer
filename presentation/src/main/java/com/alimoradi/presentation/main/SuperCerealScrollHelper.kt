@@ -12,7 +12,7 @@ import com.alimoradi.presentation.BuildConfig
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.about.AboutFragment
 import com.alimoradi.presentation.detail.DetailFragment
-import com.alimoradi.presentation.folder.tree.FolderTreeFragment
+import com.alimoradi.presentation.tree.FolderTreeFragment
 import com.alimoradi.presentation.library.LibraryFragment
 import com.alimoradi.presentation.prefs.SettingsFragment
 import com.alimoradi.presentation.queue.PlayingQueueFragment

@@ -9,9 +9,9 @@ import android.support.v4.media.RatingCompat
 import android.support.v4.media.session.MediaSessionCompat
 import androidx.media.session.MediaButtonReceiver
 import dagger.Lazy
-import dev.olog.core.MediaId
-import dev.olog.core.MediaIdCategory
-import dev.olog.core.interactor.SleepTimerUseCase
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.MediaIdCategory
+import com.alimoradi.core.interactor.SleepTimerUseCase
 import com.alimoradi.servicemusic.di.inject
 import com.alimoradi.servicemusic.helper.CarHelper
 import com.alimoradi.servicemusic.helper.CarHelper.CONTENT_STYLE_BROWSABLE_HINT

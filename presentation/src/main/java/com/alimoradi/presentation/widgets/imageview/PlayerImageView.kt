@@ -5,7 +5,7 @@ import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
 import android.util.AttributeSet
 import com.bumptech.glide.Priority
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 import com.alimoradi.imageprovider.CoverUtils
 import com.alimoradi.imageprovider.GlideApp
 import com.alimoradi.presentation.ripple.RippleTarget

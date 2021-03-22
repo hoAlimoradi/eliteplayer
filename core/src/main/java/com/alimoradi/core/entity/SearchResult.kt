@@ -1,6 +1,6 @@
-package dev.olog.core.entity
+package com.alimoradi.core.entity
 
-import dev.olog.core.MediaId
+import com.alimoradi.core.MediaId
 
 data class SearchResult(
     val mediaId: MediaId,

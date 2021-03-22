@@ -1,8 +1,8 @@
 package com.alimoradi.media
 
 import androidx.lifecycle.LiveData
-import dev.olog.core.MediaId
-import dev.olog.core.entity.sort.SortEntity
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.sort.SortEntity
 import com.alimoradi.media.model.*
 import kotlinx.coroutines.flow.Flow
 

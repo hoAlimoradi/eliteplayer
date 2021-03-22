@@ -4,7 +4,7 @@ import android.content.Context
 import android.util.AttributeSet
 import androidx.fragment.app.FragmentActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import dev.olog.analytics.TrackerFacade
+import com.alimoradi.analytics.TrackerFacade
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.main.di.inject
 import com.alimoradi.presentation.model.BottomNavigationPage

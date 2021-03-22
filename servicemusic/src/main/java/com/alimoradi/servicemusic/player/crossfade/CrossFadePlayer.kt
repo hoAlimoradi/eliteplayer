@@ -6,8 +6,8 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
 import com.google.android.exoplayer2.PlaybackParameters
 import com.google.android.exoplayer2.Player
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.core.prefs.MusicPreferencesGateway
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.core.prefs.MusicPreferencesGateway
 import com.alimoradi.injection.dagger.ServiceLifecycle
 import com.alimoradi.servicemusic.EventDispatcher
 import com.alimoradi.servicemusic.EventDispatcher.Event

@@ -11,7 +11,7 @@
     android:focusable="true"
     android:background="?android:colorBackground">
 
-    <dev.olog.presentation.widgets.StatusBarView
+    <com.alimoradi.presentation.widgets.StatusBarView
         android:id="@+id/statusBar"
         android:layout_width="0dp"
         android:layout_height="@dimen/status_bar"
@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <dev.olog.shared.widgets.adaptive.AdaptiveColorImageView
+    <com.alimoradi.sharedwidgets.adaptive.AdaptiveColorImageView
         android:id="@+id/image"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -138,7 +138,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:background="?colorSurface">
 
-        <dev.olog.shared.widgets.AutoScrollTextView
+        <com.alimoradi.sharedwidgets.AutoScrollTextView
             android:id="@+id/header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

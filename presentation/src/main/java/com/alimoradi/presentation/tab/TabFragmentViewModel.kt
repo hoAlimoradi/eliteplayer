@@ -2,9 +2,9 @@ package com.alimoradi.presentation.tab
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import dev.olog.core.MediaId
-import dev.olog.core.entity.sort.SortEntity
-import dev.olog.core.prefs.SortPreferences
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.entity.sort.SortEntity
+import com.alimoradi.core.prefs.SortPreferences
 import com.alimoradi.presentation.model.DisplayableItem
 import com.alimoradi.presentation.model.PresentationPreferencesGateway
 import com.alimoradi.sharedandroid.extensions.asLiveData

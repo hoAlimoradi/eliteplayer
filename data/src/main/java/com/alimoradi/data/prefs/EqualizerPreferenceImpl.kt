@@ -2,7 +2,7 @@ package com.alimoradi.data.prefs
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import dev.olog.core.prefs.EqualizerPreferencesGateway
+import com.alimoradi.core.prefs.EqualizerPreferencesGateway
 import com.alimoradi.data.utils.assertBackgroundThread
 import com.alimoradi.data.utils.observeKey
 import kotlinx.coroutines.flow.Flow

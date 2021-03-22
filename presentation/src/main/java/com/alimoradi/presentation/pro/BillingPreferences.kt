@@ -3,7 +3,7 @@ package com.alimoradi.presentation.pro
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import dev.olog.core.dagger.ApplicationContext
+import com.alimoradi.core.dagger.ApplicationContext
 import javax.inject.Inject
 
 internal class BillingPreferences @Inject constructor(

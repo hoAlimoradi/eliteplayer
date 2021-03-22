@@ -3,9 +3,9 @@ package com.alimoradi.data.repository
 import android.content.ContentResolver
 import android.content.Context
 import android.net.Uri
-import dev.olog.core.gateway.base.BaseGateway
-import dev.olog.core.schedulers.Schedulers
-import dev.olog.data.DataObserver
+import com.alimoradi.core.gateway.base.BaseGateway
+import com.alimoradi.core.schedulers.Schedulers
+import com.alimoradi.data.DataObserver
 import com.alimoradi.data.utils.PermissionsUtils
 import com.alimoradi.data.utils.assertBackground
 import com.alimoradi.data.utils.assertBackgroundThread

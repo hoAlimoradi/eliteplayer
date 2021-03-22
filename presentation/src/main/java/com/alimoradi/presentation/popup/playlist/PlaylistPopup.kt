@@ -1,9 +1,9 @@
 package com.alimoradi.presentation.popup.playlist
 
 import android.view.View
-import dev.olog.core.entity.AutoPlaylist
-import dev.olog.core.entity.track.Playlist
-import dev.olog.core.entity.track.Song
+import com.alimoradi.core.entity.AutoPlaylist
+import com.alimoradi.core.entity.track.Playlist
+import com.alimoradi.core.entity.track.Song
 import com.alimoradi.presentation.R
 import com.alimoradi.presentation.popup.AbsPopup
 import com.alimoradi.presentation.popup.AbsPopupListener

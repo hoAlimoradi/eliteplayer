@@ -2,11 +2,11 @@ package com.alimoradi.equalizer.equalizer
 
 import android.content.Context
 import android.media.audiofx.AudioEffect
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.core.entity.EqualizerBand
-import dev.olog.core.entity.EqualizerPreset
-import dev.olog.core.gateway.EqualizerGateway
-import dev.olog.core.prefs.EqualizerPreferencesGateway
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.core.entity.EqualizerBand
+import com.alimoradi.core.entity.EqualizerPreset
+import com.alimoradi.core.gateway.EqualizerGateway
+import com.alimoradi.core.prefs.EqualizerPreferencesGateway
 import com.alimoradi.equalizer.audioeffect.NormalizedEqualizer
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.MainScope

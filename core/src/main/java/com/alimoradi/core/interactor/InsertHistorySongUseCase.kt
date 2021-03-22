@@ -1,7 +1,7 @@
-package dev.olog.core.interactor
+package com.alimoradi.core.interactor
 
-import dev.olog.core.gateway.podcast.PodcastPlaylistGateway
-import dev.olog.core.gateway.track.PlaylistGateway
+import com.alimoradi.core.gateway.podcast.PodcastPlaylistGateway
+import com.alimoradi.core.gateway.track.PlaylistGateway
 import javax.inject.Inject
 
 class InsertHistorySongUseCase @Inject constructor(

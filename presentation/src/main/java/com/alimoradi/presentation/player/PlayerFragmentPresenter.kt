@@ -1,8 +1,8 @@
 package com.alimoradi.presentation.player
 
 import android.content.Context
-import dev.olog.core.dagger.ApplicationContext
-import dev.olog.core.prefs.AppPreferencesGateway
+import com.alimoradi.core.dagger.ApplicationContext
+import com.alimoradi.core.prefs.AppPreferencesGateway
 import com.alimoradi.presentation.model.PresentationPreferencesGateway
 import com.alimoradi.presentation.pro.IBilling
 import com.alimoradi.sharedandroid.theme.hasPlayerAppearance

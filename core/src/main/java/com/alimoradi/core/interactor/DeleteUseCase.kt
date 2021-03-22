@@ -1,11 +1,11 @@
-package dev.olog.core.interactor
+package com.alimoradi.core.interactor
 
-import dev.olog.core.MediaId
-import dev.olog.core.gateway.podcast.PodcastGateway
-import dev.olog.core.gateway.podcast.PodcastPlaylistGateway
-import dev.olog.core.gateway.track.PlaylistGateway
-import dev.olog.core.gateway.track.SongGateway
-import dev.olog.core.interactor.songlist.GetSongListByParamUseCase
+import com.alimoradi.core.MediaId
+import com.alimoradi.core.gateway.podcast.PodcastGateway
+import com.alimoradi.core.gateway.podcast.PodcastPlaylistGateway
+import com.alimoradi.core.gateway.track.PlaylistGateway
+import com.alimoradi.core.gateway.track.SongGateway
+import com.alimoradi.core.interactor.songlist.GetSongListByParamUseCase
 import javax.inject.Inject
 
 class DeleteUseCase @Inject constructor(
