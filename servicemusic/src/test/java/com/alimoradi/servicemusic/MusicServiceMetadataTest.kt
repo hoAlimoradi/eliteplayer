@@ -10,7 +10,7 @@ import com.alimoradi.servicemusic.model.MetadataEntity
 import com.alimoradi.servicemusic.model.SkipType
 import com.alimoradi.servicemusic.shared.MusicServiceData
 import com.alimoradi.servicemusic.state.MusicServiceMetadata
-import dev.olog.test.shared.MainCoroutineRule
+import com.alimoradi.testshared.MainCoroutineRule
 import org.junit.Rule
 import org.junit.Test
 

@@ -6,7 +6,7 @@ import com.alimoradi.servicemusic.model.MetadataEntity
 import com.alimoradi.servicemusic.model.SkipType
 import com.alimoradi.servicemusic.queue.EnhancedShuffle
 import com.alimoradi.servicemusic.shared.MusicServiceData
-import dev.olog.test.shared.MainCoroutineRule
+import com.alimoradi.testshared.MainCoroutineRule
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert.assertEquals
 import org.junit.Rule

@@ -4,7 +4,7 @@ import com.nhaarman.mockitokotlin2.mock
 import com.nhaarman.mockitokotlin2.verify
 import com.nhaarman.mockitokotlin2.verifyZeroInteractions
 import com.alimoradi.servicemusic.EventDispatcher.Event
-import dev.olog.test.shared.MainCoroutineRule
+import com.alimoradi.testshared.MainCoroutineRule
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 import org.junit.Rule

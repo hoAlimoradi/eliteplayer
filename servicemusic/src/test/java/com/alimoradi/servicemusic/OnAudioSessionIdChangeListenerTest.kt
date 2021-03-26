@@ -6,7 +6,7 @@ import com.nhaarman.mockitokotlin2.verify
 import com.alimoradi.equalizer.bassboost.IBassBoost
 import com.alimoradi.equalizer.equalizer.IEqualizer
 import com.alimoradi.equalizer.virtualizer.IVirtualizer
-import dev.olog.test.shared.MainCoroutineRule
+import com.alimoradi.testshared.MainCoroutineRule
 import kotlinx.coroutines.runBlocking
 import org.junit.Rule
 import org.junit.Test
@@ -41,9 +41,9 @@ class OnAudioSessionIdChangeListenerTest {
 
         latch.await(OnAudioSessionIdChangeListener.DELAY, TimeUnit.MILLISECONDS)
 
-        verify(equalizer).onAudioSessionIdChanged(audioSessionId)
-        verify(virtualizer).onAudioSessionIdChanged(audioSessionId)
-        verify(bassBoost).onAudioSessionIdChanged(audioSessionId)
+        verify(equalizer).onAudioSessionIdChanged(1,audioSessionId)
+        verify(virtualizer).onAudioSessionIdChanged(1,audioSessionId)
+        verify(bassBoost).onAudioSessionIdChanged(1,audioSessionId)
     }
 
     @Test
@@ -59,18 +59,18 @@ class OnAudioSessionIdChangeListenerTest {
 
         latch.await(OnAudioSessionIdChangeListener.DELAY + 50, TimeUnit.MILLISECONDS)
 
-        verify(equalizer).onAudioSessionIdChanged(audioSessionId3)
-        verify(virtualizer).onAudioSessionIdChanged(audioSessionId3)
-        verify(bassBoost).onAudioSessionIdChanged(audioSessionId3)
+        verify(equalizer).onAudioSessionIdChanged(1,audioSessionId3)
+        verify(virtualizer).onAudioSessionIdChanged(1,audioSessionId3)
+        verify(bassBoost).onAudioSessionIdChanged(1,audioSessionId3)
     }
 
     @Test
     fun `test release`() {
         sessionListener.release()
 
-        verify(equalizer).onDestroy()
-        verify(virtualizer).onDestroy()
-        verify(bassBoost).onDestroy()
+        verify(equalizer).onDestroy(1)
+        verify(virtualizer).onDestroy(1)
+        verify(bassBoost).onDestroy(1)
     }
 
 }
