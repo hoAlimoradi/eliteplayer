@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/analytics" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/appshortcuts" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/data" />
+            <option value="$PROJECT_DIR$/equalizer" />
+            <option value="$PROJECT_DIR$/imageprovider" />
+            <option value="$PROJECT_DIR$/injection" />
+            <option value="$PROJECT_DIR$/intents" />
+            <option value="$PROJECT_DIR$/jaudiotagger" />
+            <option value="$PROJECT_DIR$/media" />
+            <option value="$PROJECT_DIR$/offlinelyrics" />
+            <option value="$PROJECT_DIR$/prefskeys" />
+            <option value="$PROJECT_DIR$/presentation" />
+            <option value="$PROJECT_DIR$/servicefloating" />
+            <option value="$PROJECT_DIR$/servicemusic" />
+            <option value="$PROJECT_DIR$/shared" />
+            <option value="$PROJECT_DIR$/sharedandroid" />
+            <option value="$PROJECT_DIR$/sharedwidgets" />
+            <option value="$PROJECT_DIR$/testshared" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

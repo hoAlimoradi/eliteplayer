@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="delete_song_y"><![CDATA[حذف <b>%1$s</b> از دستگاه?]]></string>
+    <string name="delete_playlist_y"><![CDATA[حذف لیست پخش <b>%1$s</b>?]]></string>
+
+    <string name="playlist_x_deleted">لیست پخش  %1$s حذف شد</string>
+    <string name="song_x_deleted">%1$s حذف شد</string>
+
+    <plurals name="delete_xx_songs_from_y">
+        <item quantity="one"><![CDATA[پاک شد <b>%1$d آهنگ</b> از دستگاه?]]></item>
+        <item quantity="other"><![CDATA[حذف شدند <b>%1$d آهنگها</b> از دستگاه?]]></item>
+    </plurals>
+
+    <plurals name="xx_songs_deleted_from_y">
+        <item quantity="one"><![CDATA[<b>%1$d آهنگ</b> از دستگاه حذف شد]]></item>
+        <item quantity="other"><![CDATA[<b>%1$d آهنگهای</b> از دستگاه حذف شدند]]></item>
+    </plurals>
+
+</resources>

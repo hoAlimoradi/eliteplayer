@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tutorial_sort_by_text">برای تغییر نوع مرتب سازی ، روی متن ضربه بزنید</string>
+    <string name="tutorial_sort_by_arrow">برای معکوس کردن نوع ، روی پیکان ضربه بزنید</string>
+
+    <string name="tutorial_floating_window">برای باز کردن یک پنجره شناور همراه با متن و ویدیوی یوتیوب کلیک کنید</string>
+    <string name="tutorial_lyrics">نمایش اشعار ذخیره شده</string>
+    <string name="tutorial_add_lyrics">متن خود را اضافه یا به روز کنید</string>
+    <string name="tutorial_search_lyrics">شعرهای خود را در وب جستجو کنید</string>
+    <string name="tutorial_adjust_sync">تنظیم همگام سازی (فقط برای متن های همگام سازی)</string>
+
+</resources>

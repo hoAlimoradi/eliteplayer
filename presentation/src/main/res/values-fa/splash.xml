@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="splash_player_controls">کنترل های پخش کننده</string>
+    <string name="splash_player_tutorial_1">برای پخش / مکث روی تصویر کلیک کنید</string>
+    <string name="splash_player_tutorial_2">برای رد شدن روی لبه های تصویر کلیک کنید یا انگشت خود را بکشید</string>
+
+    <string name="splash_storage_permission">مجوز ذخیره سازی</string>
+    <string name="splash_storage_permission_disabled">لطفاً اجازه استفاده از برنامه را برای ذخیره سازی بدهید</string>
+
+</resources>

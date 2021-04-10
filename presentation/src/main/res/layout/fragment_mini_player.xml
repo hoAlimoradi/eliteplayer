@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/sliding_panel_peek"
+    android:background="?colorSurface">
+
+    <com.alimoradi.sharedwidgets.AnimatedImageView
+        android:id="@+id/next"
+        android:layout_width="40dp"
+        android:layout_height="0dp"
+        android:background="@null"
+        android:padding="5dp"
+        app:avd="@drawable/avd_music_next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/vd_music_next" />
+
+    <com.alimoradi.sharedwidgets.playpause.AnimatedPlayPauseImageView
+        android:id="@+id/playPause"
+        android:layout_width="40dp"
+        android:layout_height="0dp"
+        android:background="@null"
+        android:padding="5dp"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/next"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/vd_playpause_play" />
+
+    <com.alimoradi.sharedwidgets.AnimatedImageView
+        android:id="@+id/previous"
+        android:layout_width="40dp"
+        android:layout_height="0dp"
+        android:background="@null"
+        android:padding="5dp"
+        app:avd="@drawable/avd_music_previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/playPause"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/vd_music_previous" />
+
+    <com.alimoradi.sharedwidgets.AutoScrollTextView
+        android:id="@+id/title"
+        android:gravity="bottom"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/mini_player_margin_start"
+        android:layout_marginBottom="2dp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/artist"
+        app:layout_constraintEnd_toStartOf="@+id/previous"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@tools:sample/lorem"
+        app:fontFamily="sans-serif-black"/>
+
+    <TextView
+        android:id="@+id/artist"
+        android:gravity="top"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/previous"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        tools:text="@tools:sample/lorem" />
+
+    <com.alimoradi.media.widget.CustomProgressBar
+        android:id="@+id/progressBar"
+        style="@style/DefaultHorizontalProgressBar"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:progressTint="@color/textColorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:max="100"
+        tools:progress="40" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

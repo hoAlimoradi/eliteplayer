@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="search_recent_searches">تحقیقات اخیر</string>
+    <string name="search_clear_recent_searches">جستجوهای اخیر را پاک کنید</string>
+    <string name="search_recent_empty_state">کتابخانه خود را جستجو کنید ..</string>
+
+
+    <plurals name="search_xx_results">
+        <item quantity="one" tools:ignore="ImpliedQuantity">  نتیجه</item>
+        <item quantity="other"> نتایج</item>
+    </plurals>
+
+
+
+
+</resources>

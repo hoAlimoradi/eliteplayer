@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="common_last_added">اخرین اضافه شده ها</string>
+    <string name="common_favorites">پسندیده</string>
+    <string name="common_history">تاریخچه</string>
+
+</resources>

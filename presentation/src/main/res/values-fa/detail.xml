@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="detail_album_header">
+        <item>سایر پرونده ها</item>
+        <item>سایر لیست پخش ها</item>
+        <item/>
+        <item>سایر البوم ها</item>
+        <item>@string/common_albums</item>
+        <item>Other genres</item>
+        <item>Other playlists</item>
+        <item/>
+        <item>Other albums</item>
+        <item>@string/common_albums</item>
+    </string-array>
+
+    <string name="detail_more_albums_by">بیشتر از  %s</string>
+
+    <plurals name="detail_xx_new_songs">
+        <item quantity="one">%d موسیقی جدید</item>
+        <item quantity="other">%d آهنگ دیگر</item>
+    </plurals>
+
+
+
+
+</resources>

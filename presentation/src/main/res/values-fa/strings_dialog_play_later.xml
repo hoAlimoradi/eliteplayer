@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="add_song_x_to_play_later"><![CDATA[Add <b>%1$s</b> بعدا پخش شود?]]></string>
+
+    <plurals name="add_xx_songs_to_play_later">
+        <item quantity="one"><![CDATA[Add <b>%1$d آهنگ</b> بعدا پخش شود?]]></item>
+        <item quantity="other"><![CDATA[Add <b>%1$d آهنگها</b> بعدا پخش شود?]]></item>
+    </plurals>
+
+    <string name="song_x_added_to_play_later">%1$s بعداً به نمایشنامه اضافه شد</string>
+    <plurals name="xx_songs_added_to_play_later">
+        <item quantity="one">%1$d آهنگ اضافه شد تا بعدا پخش شود</item>
+        <item quantity="other">%1$d آهنگ ها برای پخش بعداً اضافه شدند</item>
+    </plurals>
+
+</resources>

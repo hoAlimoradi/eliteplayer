@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tab_auto_playlists">لیست های پخش خودکار</string>
+    <string name="tab_all_playlists">همه لیست های پخش</string>
+    <string name="tab_all_albums">همه آلبوم ها</string>
+    <string name="tab_all_artists">همه هنرمندان</string>
+    <string name="tab_recent_played">آخرین پخش شده ها</string>
+    <string name="tab_recent_added">به تازگی اضافه شده</string>
+
+    <string-array name="tab_new_items">
+        <item>آلبوم های جدید</item>
+        <item>هنرمندان جدید</item>
+    </string-array>
+
+</resources>

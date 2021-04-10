@@ -1,0 +1,24 @@
+apply plugin: 'com.android.library'
+apply from: '../base_module.gradle'
+
+android {
+    kotlinOptions.allWarningsAsErrors = true
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+}
+
+dependencies {
+    implementation project(':core')
+    implementation project(':sharedandroid')
+    implementation project(':intents')
+    implementation project(':shared')
+
+    implementation lib_core.coroutines
+    implementation lib_x.media
+    implementation lib_x.appcompat
+    implementation lib_x.lifecycle_livedata
+
+    testImplementation lib_test.mockito
+}
